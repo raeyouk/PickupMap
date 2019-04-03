@@ -188,7 +188,7 @@
 
 
  </center>
- <p align="right"> Created by Sithara Samudrala, Sai Thatigotla, and Young-Rae Kim at VolHacks 2018 </p>
+ <p align="right"> Created by </p>
 </body>
 
 <body>
