@@ -1,0 +1,123 @@
+<!DOCTYPE html >
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>PickupMap</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height:75%;
+        width: 75%;
+        margin: 0 auto 0 auto;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+      }
+    </style>
+  </head>
+
+<html>
+  <body>
+      <h2 style="font-family:helvetica; font-size:60px; text-align: center;">Pickup<span style="color:#ff00bf;">Map</span></h2>
+
+
+
+
+    
+    <div id="map"></div>
+
+    <script>
+      var customLabel = {
+        Uber: {
+        //   url: 'http://localhost/map/icons/uber',
+          url: 'http://localhost/map/icons/ubersmall',
+        //   scaledSize : new google.maps.Size(50, 50)
+        },
+        Lyft: {
+        //   url: 'http://localhost/map/icons/lyft',
+          url: 'http://localhost/map/icons/lyftsmall',
+        },
+      };
+
+        function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(40.7128, -74.0060),        //center location
+          zoom: 15
+        });
+        var infoWindow = new google.maps.InfoWindow;
+          downloadUrl('http://localhost/map/conn.php', function(data) {
+            var xml = data.responseXML;
+            var markers = xml.documentElement.getElementsByTagName('marker');
+            Array.prototype.forEach.call(markers, function(markerElem) {
+              var id = markerElem.getAttribute('id');
+            //   var name = markerElem.getAttribute('name');
+              var timeanddate = markerElem.getAttribute('timeanddate');
+              var company = markerElem.getAttribute('company');
+              var point = new google.maps.LatLng(
+                  parseFloat(markerElem.getAttribute('lat')),
+                  parseFloat(markerElem.getAttribute('lng')));
+
+              var infowincontent = document.createElement('div');
+              var strong = document.createElement('strong');
+            //   strong.textContent = name
+            strong.textContent = "Pickup Time:"
+              infowincontent.appendChild(strong);
+              infowincontent.appendChild(document.createElement('br'));
+
+              var text = document.createElement('text');
+              text.textContent = timeanddate
+              infowincontent.appendChild(text);
+              var pin = customLabel[company] || {};
+              var marker = new google.maps.Marker({
+                map: map,
+                position: point,
+                icon: pin
+              });
+              marker.addListener('click', function() {
+                infoWindow.setContent(infowincontent);
+                infoWindow.open(map, marker);
+              });
+            });
+          });
+
+          var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+          var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'http://localhost/map/m1'});
+      
+        }
+
+      function downloadUrl(url, callback) {
+        var request = window.ActiveXObject ?
+            new ActiveXObject('Microsoft.XMLHTTP') :
+            new XMLHttpRequest;
+
+        request.onreadystatechange = function() {
+          if (request.readyState == 4) {
+            request.onreadystatechange = doNothing;
+            callback(request, request.status);
+          }
+        };
+
+        request.open('GET', url, true);
+        request.send(null);
+      }
+
+      function doNothing() {}
+    </script>
+
+<script src="http://localhost/map/markerclusterer.js">
+</script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNIYNUYOcAiAFpnEvtUoCzMm53035jV3I&callback=initMap">
+    </script>
+    
+  </body>
+    <div style="font-family:helvetica; font-size:10px;  position: absolute; bottom: 5px; ">&nbsp; Made by Young-Rae Kim, Samantha Axline, and Sreeja Kondeti &nbsp;</div>
+</html>
