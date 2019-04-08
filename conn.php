@@ -68,9 +68,7 @@ while ($row = @mysqli_fetch_assoc($result)){
     // Add to XML document node
     echo '<marker ';
     echo 'id="' . $row['id'] . '" ';
-  //   echo 'name="' . parseToXML($row['name']) . '" ';
-  //   echo 'address="' . parseToXML($row['address']) . '" ';
-      echo 'timeanddate="' . $row['timeanddate'] . '" ';
+    echo 'timeanddate="' . $row['timeanddate'] . '" ';
     echo 'lat="' . $row['lat'] . '" ';
     echo 'lng="' . $row['lng'] . '" ';
     echo 'company="' . $row['company'] . '" ';
