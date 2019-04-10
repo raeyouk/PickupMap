@@ -95,7 +95,8 @@
     #target {
       width: 345px;
     }
-/* Switch */
+
+    /* Switch */
     .switch {
       position: absolute;
       top: 10px;
@@ -103,6 +104,7 @@
       display: inline-block;
       width: 60px;
       height: 34px;
+
     }
 
     /* Hide default HTML checkbox */
@@ -110,7 +112,7 @@
       opacity: 0;
       width: 0;
       height: 0;
-      
+
     }
 
     /* The slider */
@@ -139,11 +141,11 @@
     }
 
     input:checked+.slider {
-      background-color: #2196F3;
+      background-color: rgb(0, 0, 0);
     }
 
     input:focus+.slider {
-      box-shadow: 0 0 1px #2196F3;
+      box-shadow: 0 0 0 3px rgb(255, 255, 255);
     }
 
     input:checked+.slider:before {
@@ -160,29 +162,29 @@
     .slider.round:before {
       border-radius: 50%;
     }
+
+    /* .slider::after {
+      position: relative;
+      right: -70px;
+      width: 8800px;
+      content: "Enable dark mode"
+    } */
   </style>
 </head>
 
 <html>
+
 <body>
-  <h2 style="font-family:helvetica; font-size:60px; text-align: center;">Pickup<span style="color:#ff00bf;">Map</span>
+  <h2 class="text" style="font-family:helvetica; font-size:60px; text-align: center;">Pickup<span
+      style="color:#ff00bf;">Map</span>
   </h2>
 
   <label class="switch">
     <input id="toggle" type="checkbox" onchange="toggled()">
     <span class="slider round"></span>
   </label>
-
-  <script>
-    function toggled() {
-      if (document.getElementById("toggle").checked) {
-        document.body.style.backgroundColor = "grey";
-      }
-      if (!document.getElementById("toggle").checked) {
-        document.body.style.backgroundColor = "white";
-      }
-    }
-  </script>
+  <div class="text" style="font-family:helvetica; font-size:12px;  position: absolute; top: 20px; left: 80px">Dark mode
+  </div>
 
   <input id="pac-input" class="controls" type="text" placeholder="Search">
 
@@ -245,13 +247,13 @@
             size: new google.maps.Size(71, 71),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
-            scaledSize: new google.maps.Size(25, 25)
+            scaledSize: new google.maps.Size(50, 50)
           };
 
           // Create a marker for each place.
           markers.push(new google.maps.Marker({
             map: map,
-            icon: icon,
+            icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
             title: place.name,
             position: place.geometry.location
           }));
@@ -322,12 +324,30 @@
     function doNothing() { }
   </script>
 
+  <script>
+    function toggled() {
+      var text = document.getElementsByClassName("text");
+      if (document.getElementById("toggle").checked) {
+        document.body.style.backgroundColor = "black";
+        for (var i = 0; i < text.length; i++) {
+          text[i].style.color = 'white';
+        }
+      }
+      else {
+        document.body.style.backgroundColor = "white";
+        for (var i = 0; i < text.length; i++) {
+          text[i].style.color = 'black';
+        }
+      }
+    }
+  </script>
+
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNIYNUYOcAiAFpnEvtUoCzMm53035jV3I&libraries=places&callback=initAutocomplete"
     async defer></script>
 
 </body>
-<div style="font-family:helvetica; font-size:10px;  position: absolute; bottom: 5px; ">&nbsp; Made by Young-Rae Kim,
-  Samantha Axline, and Sreeja Kondeti &nbsp;</div>
+<div class="text" style="font-family:helvetica; font-size:10px;  position: absolute; bottom: 5px;">&nbsp; Made by
+  Young-Rae Kim, Samantha Axline, and Sreeja Kondeti &nbsp;</div>
 
 </html>
