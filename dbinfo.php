@@ -1,5 +1,5 @@
 <?php
 $username="root";
 $password="";
-$database="locations";
+$database="drivingservice"; // locations
 ?>
