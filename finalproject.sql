@@ -14,7 +14,8 @@ CREATE TABLE dataFromFile
     company			VARCHAR(255)	DEFAULT "Uber"
 );
 
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/uber-trip-data/uber-raw-data-jul14.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/uber-trip-data/uber-raw-data-jul14.csv' 
+LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/uber-trip-data/uber-raw-data-jul14.csv'
 INTO TABLE dataFromFile
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
