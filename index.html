@@ -169,13 +169,50 @@
       width: 8800px;
       content: "Enable dark mode"
     } */
+
+    #wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    #btn2 {
+      margin-left: 10px;
+    }
+
+    #btn3 {
+      margin-left: 10px;
+    }
+
+    #btn4 {
+      margin-left: 10px;
+    }
+
+    #dark{
+      font-family:helvetica;
+      font-size:12px; 
+      position: absolute;
+      top: 20px;
+      left: 80px
+    }
+
+    #creds {
+      font-family: helvetica;
+      font-size: 10px;
+      position: absolute;
+      right: 5px;
+      bottom: 10px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      text-orientation: mixed;
+    }
+
   </style>
 </head>
 
 <html>
 
 <body>
-  <h2 class="text" style="font-family:helvetica; font-size:60px; text-align: center;">Find<span
+  <h2 class="text" style="font-family:helvetica; font-size:60px; text-align: center; line-height: 10px;">Find<span
       style="color:#ff00bf;">My</span><span>Ride</span>
   </h2>
 
@@ -183,18 +220,19 @@
     <input id="toggle" type="checkbox" onchange="toggled()">
     <span class="slider round"></span>
   </label>
-  <div class="text" style="font-family:helvetica; font-size:12px;  position: absolute; top: 20px; left: 80px">Dark mode
+  <div class="text" id="dark">Dark mode
   </div>
 
-  <button id="select" type="button" onclick="selected">Click Me!</button>
+  <!-- <button id="select" type="button" onclick="selected()">Click Me!</button> -->
 
-  <form id="form1">
-    <button id="btn1" onclick="whichButton(this)">Button 1</button><br />
-    <!-- <button id="btn2" onclick="whichButton(this)">Button 2</button><br/>
-    <button id="btn3" onclick="whichButton(this)">Button 3</button><br/>
-    <button id="btn4" onclick="whichButton(this)">Button 4</button><br/> -->
-  </form>
+  <div id="wrapper">
+    <button id="btn1" onclick="whichButton(this)">Show All</button>
+    <button id="btn2" onclick="whichButton(this)">Late</button>
+    <button id="btn3" onclick="whichButton(this)">Button 3</button>
+    <button id="btn4" onclick="whichButton(this)">Button 4</button>
+  </div>
 
+  <button id="clearer" onclick="clearOverlays()">Clear</button>
 
   <input id="pac-input" class="controls" type="text" placeholder="Search">
 
@@ -283,124 +321,90 @@
 
       infoWindow = new google.maps.InfoWindow;
 
-      // downloadUrl('http://localhost/PickupMap/conn.php', function (data) {
-      //   var xml = data.responseXML;
-      //   var markers = xml.documentElement.getElementsByTagName('marker');
-      //   Array.prototype.forEach.call(markers, function (markerElem) {
-      //     var id = markerElem.getAttribute('id');
-      //     //   var name = markerElem.getAttribute('name');
-      //     var timeanddate = markerElem.getAttribute('timeanddate');
-      //     var company = markerElem.getAttribute('company');
-      //     var point = new google.maps.LatLng(
-      //       parseFloat(markerElem.getAttribute('lat')),
-      //       parseFloat(markerElem.getAttribute('lng')));
-
-      //     var infowincontent = document.createElement('div');
-      //     var strong = document.createElement('strong');
-      //     //   strong.textContent = name
-      //     strong.textContent = "Pickup Time:"
-      //     infowincontent.appendChild(strong);
-      //     infowincontent.appendChild(document.createElement('br'));
-
-      //     var text = document.createElement('text');
-      //     text.textContent = timeanddate
-      //     infowincontent.appendChild(text);
-      //     var pin = customLabel[company] || {};
-
-      //     // if (id < 5) {
-      //     var marker = new google.maps.Marker({
-      //       map: map,
-      //       position: point,
-      //       icon: pin
-      //     });
-      //     // }
-      //     // markers[2].setMap(null);
-      //     // delete marker[0];
-      //     // delete marker[1];
-      //     // delete marker[2];
-      //     // delete marker[3];
-      //     // clearMarkers();
-      //     // showMarkers();
-
-      //     marker.addListener('click', function () {
-      //       infoWindow.setContent(infowincontent);
-      //       infoWindow.open(map, marker);
-      //     });
-      //   });
-      // });
-
-      // function setMapOnAll(map) {
-      //   for (var i = 0; i < markers.length; i++) {
-      //     markers[i].setMap(map);
-      //   }
-      // }
-
-      // function clearMarkers() {
-      //   setMapOnAll(null);
-      // }
-
-      // function showMarkers() {
-      //   setMapOnAll(map);
-      // }
-
     } //initautocomplete
 
+    //     google.maps.Map.prototype.clearOverlays = function() {
+    //     for(var i=0; i < this.markers.length; i++){
+    //         this.markers[i].setMap(null);
+    //     }
+    //     this.markers = new Array();
+    // };
 
-
-    // function whichButton(buttonElement) {
-    //   // alert(buttonElement.id);
-    //   var buttonClickedId = buttonElement.id;
-    //   if (buttonClickedId === 'btn1') {
-
-    //     // downloadUrl('http://localhost/PickupMap/conn.php', function (data) {
-    //     //   var xml = data.responseXML;
-    //     //   var markers = xml.documentElement.getElementsByTagName('marker');
-    //     //   Array.prototype.forEach.call(markers, function (markerElem) {
-    //     //     var id = markerElem.getAttribute('id');
-    //     //     //   var name = markerElem.getAttribute('name');
-    //     //     var timeanddate = markerElem.getAttribute('timeanddate');
-    //     //     var company = markerElem.getAttribute('company');
-    //     //     var point = new google.maps.LatLng(
-    //     //       parseFloat(markerElem.getAttribute('lat')),
-    //     //       parseFloat(markerElem.getAttribute('lng')));
-
-    //     //     var infowincontent = document.createElement('div');
-    //     //     var strong = document.createElement('strong');
-    //     //     //   strong.textContent = name
-    //     //     strong.textContent = "Pickup Time:"
-    //     //     infowincontent.appendChild(strong);
-    //     //     infowincontent.appendChild(document.createElement('br'));
-
-    //     //     var text = document.createElement('text');
-    //     //     text.textContent = timeanddate
-    //     //     infowincontent.appendChild(text);
-    //     //     var pin = customLabel[company] || {};
-
-    //     //     // if (id < 5) {
-    //     //     var marker = new google.maps.Marker({
-    //     //       map: map,
-    //     //       position: point,
-    //     //       icon: pin
-    //     //     });
-    //     //     // }
-
-    //     //     marker.addListener('click', function () {
-    //     //       infoWindow.setContent(infowincontent);
-    //     //       infoWindow.open(map, marker);
-    //     //     });
-    //     //   });
-    //     // });
-
-    //   }
-    //   else if (buttonClickedId === 'btn2') {
-    //     // do btn2 stuff
-    //   }
-    //   // ...
-    //   else {
-    //     // don't know which button was clicked
+    // function setMapOnAll(map) {
+    //   for (var i = 0; i < markers.length; i++) {
+    //     markers[i].setMap(map);
     //   }
     // }
 
+    // function clearMarkers() {
+    //   setMapOnAll(null);
+    // }
+
+    // function showMarkers() {
+    //   setMapOnAll(map);
+    // }
+
+    // function deleteMarkers() {
+    //     clearMarkers();
+    //     markers = [];
+    //   }
+
+    function whichButton(buttonElement) {
+      // alert(buttonElement.id);
+      var buttonClickedId = buttonElement.id;
+      var connection;
+
+      if (buttonClickedId === 'btn1') {
+        connection = 'http://localhost/PickupMap/conn.php';
+      }
+      else if (buttonClickedId === 'btn2') {
+        connection = 'http://localhost/PickupMap/connLate.php';
+      }
+      else if (buttonClickedId === 'btn3') {
+      }
+      else if (buttonClickedId === 'btn4') {
+      }
+
+      downloadUrl(connection, function (data) {
+        var xml = data.responseXML;
+        var markers = xml.documentElement.getElementsByTagName('marker');
+        Array.prototype.forEach.call(markers, function (markerElem) {
+          var id = markerElem.getAttribute('id');
+          //   var name = markerElem.getAttribute('name');
+          var timeanddate = markerElem.getAttribute('timeanddate');
+          var company = markerElem.getAttribute('company');
+          var point = new google.maps.LatLng(
+            parseFloat(markerElem.getAttribute('lat')),
+            parseFloat(markerElem.getAttribute('lng')));
+
+          var infowincontent = document.createElement('div');
+          var strong = document.createElement('strong');
+          //   strong.textContent = name
+          strong.textContent = "Pickup Time:"
+          infowincontent.appendChild(strong);
+          infowincontent.appendChild(document.createElement('br'));
+
+          var text = document.createElement('text');
+          text.textContent = timeanddate
+          infowincontent.appendChild(text);
+          var pin = customLabel[company] || {};
+
+          // if (id < 5) {
+          var marker = new google.maps.Marker({
+            map: map,
+            position: point,
+            icon: pin
+          });
+          // }
+
+          marker.addListener('click', function () {
+            infoWindow.setContent(infowincontent);
+            infoWindow.open(map, marker);
+          });
+        });
+      });
+
+    }
 
     function downloadUrl(url, callback) {
       var request = window.ActiveXObject ?
@@ -420,11 +424,7 @@
 
     function doNothing() { }
 
-    // initAutocomplete();
-  </script>
-
-  <!-- Toggle switch -->
-  <script>
+    // Toggle switch
     function toggled() {
       var text = document.getElementsByClassName("text");
       if (document.getElementById("toggle").checked) {
@@ -439,100 +439,6 @@
           text[i].style.color = 'black';
         }
       }
-      downloadUrl('http://localhost/PickupMap/conn.php', function (data) {
-        var xml = data.responseXML;
-        var markers = xml.documentElement.getElementsByTagName('marker');
-        Array.prototype.forEach.call(markers, function (markerElem) {
-          var id = markerElem.getAttribute('id');
-          //   var name = markerElem.getAttribute('name');
-          var timeanddate = markerElem.getAttribute('timeanddate');
-          var company = markerElem.getAttribute('company');
-          var point = new google.maps.LatLng(
-            parseFloat(markerElem.getAttribute('lat')),
-            parseFloat(markerElem.getAttribute('lng')));
-
-          var infowincontent = document.createElement('div');
-          var strong = document.createElement('strong');
-          //   strong.textContent = name
-          strong.textContent = "Pickup Time:"
-          infowincontent.appendChild(strong);
-          infowincontent.appendChild(document.createElement('br'));
-
-          var text = document.createElement('text');
-          text.textContent = timeanddate
-          infowincontent.appendChild(text);
-          var pin = customLabel[company] || {};
-
-          // if (id < 5) {
-          var marker = new google.maps.Marker({
-            map: map,
-            position: point,
-            icon: pin
-          });
-          // }
-          // markers[2].setMap(null);
-          // delete marker[0];
-          // delete marker[1];
-          // delete marker[2];
-          // delete marker[3];
-          // clearMarkers();
-          // showMarkers();
-
-          marker.addListener('click', function () {
-            infoWindow.setContent(infowincontent);
-            infoWindow.open(map, marker);
-          });
-        });
-      });
-
-    }
-
-    function selected() {
-      downloadUrl('http://localhost/PickupMap/conn.php', function (data) {
-        var xml = data.responseXML;
-        var markers = xml.documentElement.getElementsByTagName('marker');
-        Array.prototype.forEach.call(markers, function (markerElem) {
-          var id = markerElem.getAttribute('id');
-          //   var name = markerElem.getAttribute('name');
-          var timeanddate = markerElem.getAttribute('timeanddate');
-          var company = markerElem.getAttribute('company');
-          var point = new google.maps.LatLng(
-            parseFloat(markerElem.getAttribute('lat')),
-            parseFloat(markerElem.getAttribute('lng')));
-
-          var infowincontent = document.createElement('div');
-          var strong = document.createElement('strong');
-          //   strong.textContent = name
-          strong.textContent = "Pickup Time:"
-          infowincontent.appendChild(strong);
-          infowincontent.appendChild(document.createElement('br'));
-
-          var text = document.createElement('text');
-          text.textContent = timeanddate
-          infowincontent.appendChild(text);
-          var pin = customLabel[company] || {};
-
-          // if (id < 5) {
-          var marker = new google.maps.Marker({
-            map: map,
-            position: point,
-            icon: pin
-          });
-          // }
-          // markers[2].setMap(null);
-          // delete marker[0];
-          // delete marker[1];
-          // delete marker[2];
-          // delete marker[3];
-          // clearMarkers();
-          // showMarkers();
-
-          marker.addListener('click', function () {
-            infoWindow.setContent(infowincontent);
-            infoWindow.open(map, marker);
-          });
-        });
-      });
     }
   </script>
 
@@ -542,7 +448,6 @@
     async defer></script>
 
 </body>
-<div class="text" style="font-family:helvetica; font-size:10px;  position: absolute; bottom: 5px;">&nbsp; Made by
-  Young-Rae Kim, Samantha Axline, and Sreeja Kondeti &nbsp;</div>
+<div class="text" id="creds">Made by Young-Rae Kim, Samantha Axline, and Sreeja Kondeti</div>
 
 </html>
