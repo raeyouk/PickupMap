@@ -24,7 +24,7 @@ if (!$db_selected) {
 }
 
 // Select all the rows in the markers table
-$query = "SELECT * FROM dataFromFile WHERE 1"; // database here
+$query = "SELECT * FROM dataFromUberJul WHERE 1"; // database here
 $result = $connection->query($query);
 if (!$result) {
   die('Invalid query: ' . $connection());
@@ -53,23 +53,23 @@ while ($row = @mysqli_fetch_assoc($result)){
 
 // Use next table
 
-// $query = "SELECT * FROM lyft WHERE 1"; // database here
-// $result = $connection->query($query);
-// if (!$result) {
-//   die('Invalid query: ' . $connection());
-// }
+$query = "SELECT * FROM dataFromLyft WHERE 1"; // database here
+$result = $connection->query($query);
+if (!$result) {
+  die('Invalid query: ' . $connection());
+}
 
-// while ($row = @mysqli_fetch_assoc($result)){
-//     // Add to XML document node
-//     echo '<marker ';
-//     echo 'id="' . $row['id'] . '" ';
-//     echo 'timeanddate="' . $row['timeanddate'] . '" ';
-//     echo 'lat="' . $row['lat'] . '" ';
-//     echo 'lng="' . $row['lng'] . '" ';
-//     echo 'company="' . $row['company'] . '" ';
-//     echo '/>';
-//     $ind = $ind + 1;
-//   }
+while ($row = @mysqli_fetch_assoc($result)){
+    // Add to XML document node
+    echo '<marker ';
+    echo 'id="' . $row['id'] . '" ';
+    echo 'timeanddate="' . $row['dateAndTime'] . '" ';
+    echo 'lat="' . $row['latitude'] . '" ';
+    echo 'lng="' . $row['longitude'] . '" ';
+    echo 'company="' . $row['company'] . '" ';
+    echo '/>';
+    $ind = $ind + 1;
+  }
 
 // End XML file
 echo '</markers>';
