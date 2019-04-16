@@ -267,6 +267,14 @@
       },
       Lyft: {
         url: 'http://localhost/PickupMap/icons/lyftsmaller',
+        // label: 'a',
+
+      },
+      Diplo: {
+        url: 'http://localhost/PickupMap/icons/diplosmaller',
+      },
+      Carmel: {
+        // url: 'http://localhost/PickupMap/icons/diplosmaller',
       },
     };
 
@@ -395,34 +403,80 @@
           //   var name = markerElem.getAttribute('name');
           var timeanddate = markerElem.getAttribute('timeanddate');
           var company = markerElem.getAttribute('company');
-          var point = new google.maps.LatLng(
-            parseFloat(markerElem.getAttribute('lat')),
-            parseFloat(markerElem.getAttribute('lng')));
 
-          var infowincontent = document.createElement('div');
-          var strong = document.createElement('strong');
-          //   strong.textContent = name
-          strong.textContent = "Pickup Time:"
-          infowincontent.appendChild(strong);
-          infowincontent.appendChild(document.createElement('br'));
+          if (markerElem.hasAttribute('address')) {
 
-          var text = document.createElement('text');
-          text.textContent = timeanddate
-          infowincontent.appendChild(text);
-          var pin = customLabel[company] || {};
+            var geocoder = new google.maps.Geocoder();
+            var address = markerElem.getAttribute('address');
 
-          // if (id < 5) {
-          var marker = new google.maps.Marker({
-            map: map,
-            position: point,
-            icon: pin
-          });
-          // }
+            geocoder.geocode({ 'address': address }, function (results, status) {
 
-          marker.addListener('click', function () {
-            infoWindow.setContent(infowincontent);
-            infoWindow.open(map, marker);
-          });
+              if (status == google.maps.GeocoderStatus.OK) {
+                var latitude = results[0].geometry.location.lat();
+                var longitude = results[0].geometry.location.lng();
+              }
+              var point = new google.maps.LatLng(latitude, longitude);
+
+              // alert(point);
+
+              var infowincontent = document.createElement('div');
+              var strong = document.createElement('strong');
+              //   strong.textContent = name
+              strong.textContent = "Pickup Time:"
+              infowincontent.appendChild(strong);
+              infowincontent.appendChild(document.createElement('br'));
+
+              var text = document.createElement('text');
+              text.textContent = timeanddate
+              infowincontent.appendChild(text);
+              var pin = customLabel[company] || {};
+
+              var marker = new google.maps.Marker({
+                map: map,
+                position: point,
+                icon: pin
+              });
+
+              marker.addListener('click', function () {
+                infoWindow.setContent(infowincontent);
+                infoWindow.open(map, marker);
+              });
+            });
+          }
+          else {
+            var point = new google.maps.LatLng(
+              parseFloat(markerElem.getAttribute('lat')),
+              parseFloat(markerElem.getAttribute('lng')));
+
+            // alert(point);
+
+            var infowincontent = document.createElement('div');
+            var strong = document.createElement('strong');
+            //   strong.textContent = name
+            strong.textContent = "Pickup Time:"
+            infowincontent.appendChild(strong);
+            infowincontent.appendChild(document.createElement('br'));
+
+            var text = document.createElement('text');
+            text.textContent = timeanddate
+            infowincontent.appendChild(text);
+            var pin = customLabel[company] || {};
+
+            var marker = new google.maps.Marker({
+              map: map,
+              position: point,
+              icon: pin
+            });
+
+            marker.addListener('click', function () {
+              infoWindow.setContent(infowincontent);
+              infoWindow.open(map, marker);
+            });
+
+          }
+
+
+
         });
       });
 
@@ -463,6 +517,8 @@
       }
     }
   </script>
+
+  <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
 
   <!-- API -->
   <script

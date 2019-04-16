@@ -66,7 +66,7 @@ SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y %T');
 SET SQL_SAFE_UPDATES = 0;
 
 delete from dataFromUberJul
-where id > 10000 or dateAndTime is null;
+where id > 1000 or dateAndTime is null;
 
 SELECT * FROM dataFromUberJul;
 
@@ -83,7 +83,7 @@ IGNORE 1 LINES
 SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y %T');
 
 delete from dataFromLyft
-where id > 10000 or dateAndTime is null;
+where id > 1000 or dateAndTime is null;
 
 SELECT * FROM dataFromLyft;
 
@@ -114,3 +114,59 @@ FROM dataFromUberJul
 WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
 
 SELECT * FROM lateTripsUber join dataFromUberJul using(id, dateAndTime, company);
+
+DROP TABLE IF EXISTS dataFromDiplo;
+CREATE TABLE dataFromDiplo
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Diplo"
+);
+
+LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
+INTO TABLE dataFromDiplo
+FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
+#FIELDS TERMINATED BY ','
+#ENCLOSED BY '"'
+#LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(@date_str, @time_str, address)
+SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', @time_str), '%c/%e/%Y %r');
+
+delete from dataFromDiplo
+where id > 1000 or dateAndTime is null;
+
+select * from dataFromDiplo;
+
+DROP TABLE IF EXISTS dataFromCarmel;
+CREATE TABLE dataFromCarmel
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Carmel"
+);
+
+LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Carmel_B00256.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
+INTO TABLE dataFromCarmel
+FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
+#FIELDS TERMINATED BY ','
+#ENCLOSED BY '"'
+#LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(@date_str, @time_str, address, @dummy)
+SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%c/%e/%Y %T');
+
+delete from dataFromCarmel
+where id > 1000 or dateAndTime is null;
+
+select * from dataFromCarmel;
+
+#SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y') + CAST(@time_str AS time) 
+#STR_TO_DATE(@time_str, '%r');
+
+#SET dateAndTime = cast(@date_str as datetime) + cast(@time_str as datetime);
+#SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y %T');
