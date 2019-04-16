@@ -5,15 +5,12 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>PickupMap</title>
   <style>
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
     #map {
       height: 70%;
       width: 75%;
       margin: 0 auto 0 auto;
     }
 
-    /* Optional: Makes the sample page fill the window. */
     html,
     body {
       height: 100%;
@@ -170,6 +167,32 @@
       content: "Enable dark mode"
     } */
 
+    .button {
+      background-color: #ff00bf;
+      /* Green */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .clear {
+      background-color: #000000;
+      /* Green */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
     #wrapper {
       display: flex;
       justify-content: center;
@@ -187,9 +210,9 @@
       margin-left: 10px;
     }
 
-    #dark{
-      font-family:helvetica;
-      font-size:12px; 
+    #dark {
+      font-family: helvetica;
+      font-size: 12px;
       position: absolute;
       top: 20px;
       left: 80px
@@ -205,7 +228,6 @@
       transform: rotate(180deg);
       text-orientation: mixed;
     }
-
   </style>
 </head>
 
@@ -223,16 +245,16 @@
   <div class="text" id="dark">Dark mode
   </div>
 
-  <!-- <button id="select" type="button" onclick="selected()">Click Me!</button> -->
-
   <div id="wrapper">
-    <button id="btn1" onclick="whichButton(this)">Show All</button>
-    <button id="btn2" onclick="whichButton(this)">Late</button>
-    <button id="btn3" onclick="whichButton(this)">Button 3</button>
-    <button id="btn4" onclick="whichButton(this)">Button 4</button>
-  </div>
+    <button id="btn1" class="button" onclick="whichButton(this)">All Rides</button>
+    <button id="btn2" class="button" onclick="whichButton(this)">Late Rides</button>
+    <!-- <button id="btn3" class="button" onclick="whichButton(this)">Button 3</button> -->
+    <!-- <button id="btn4" class="button" onclick="whichButton(this)">Button 4</button> -->
+    <button id="btn3" class="clear" onclick="window.location.reload()">Clear</button>
 
-  <button id="clearer" onclick="clearOverlays()">Clear</button>
+  </div></br>
+
+  <!-- <button id="clearer" onclick="clearOverlays()">Clear</button> -->
 
   <input id="pac-input" class="controls" type="text" placeholder="Search">
 
@@ -240,11 +262,11 @@
   <script>
     var customLabel = {
       Uber: {
-        url: 'http://localhost/PickupMap/icons/ubersmall',
+        url: 'http://localhost/PickupMap/icons/ubersmaller',
         //   scaledSize : new google.maps.Size(50, 50)
       },
       Lyft: {
-        url: 'http://localhost/PickupMap/icons/lyftsmall',
+        url: 'http://localhost/PickupMap/icons/lyftsmaller',
       },
     };
 
