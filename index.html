@@ -223,9 +223,9 @@
       font-size: 10px;
       position: absolute;
       right: 5px;
-      bottom: 10px;
-      writing-mode: vertical-rl;
-      transform: rotate(180deg);
+      bottom: 5px;
+      /* writing-mode: vertical-rl; */
+      /* transform: rotate(180deg); */
       text-orientation: mixed;
     }
   </style>
@@ -242,7 +242,7 @@
     <input id="toggle" type="checkbox" onchange="toggled()">
     <span class="slider round"></span>
   </label>
-  <div class="text" id="dark">Dark mode
+  <div class="text" id="dark">A Toggle
   </div>
 
   <div id="wrapper">
@@ -404,46 +404,48 @@
           var timeanddate = markerElem.getAttribute('timeanddate');
           var company = markerElem.getAttribute('company');
 
-          if (markerElem.hasAttribute('address')) {
+          // if (markerElem.hasAttribute('address')) {
+          //   var geocoder = new google.maps.Geocoder();
+          //   var address = markerElem.getAttribute('address');
+          //   geocoder.geocode({ 'address': address }, function (results, status) {
+          //     if (status == google.maps.GeocoderStatus.OK) {
+          //       alert(id);
+          //       var latitude = results[0].geometry.location.lat();
+          //       var longitude = results[0].geometry.location.lng();
 
-            var geocoder = new google.maps.Geocoder();
-            var address = markerElem.getAttribute('address');
+          //       var point = new google.maps.LatLng(latitude, longitude);
 
-            geocoder.geocode({ 'address': address }, function (results, status) {
+          //       // alert(point);
 
-              if (status == google.maps.GeocoderStatus.OK) {
-                var latitude = results[0].geometry.location.lat();
-                var longitude = results[0].geometry.location.lng();
-              }
-              var point = new google.maps.LatLng(latitude, longitude);
+          //       var infowincontent = document.createElement('div');
+          //       var strong = document.createElement('strong');
+          //       //   strong.textContent = name
+          //       strong.textContent = "Pickup Time:"
+          //       infowincontent.appendChild(strong);
+          //       infowincontent.appendChild(document.createElement('br'));
 
-              // alert(point);
+          //       var text = document.createElement('text');
+          //       text.textContent = timeanddate
+          //       infowincontent.appendChild(text);
+          //       var pin = customLabel[company] || {};
 
-              var infowincontent = document.createElement('div');
-              var strong = document.createElement('strong');
-              //   strong.textContent = name
-              strong.textContent = "Pickup Time:"
-              infowincontent.appendChild(strong);
-              infowincontent.appendChild(document.createElement('br'));
+          //       var marker = new google.maps.Marker({
+          //         map: map,
+          //         position: point,
+          //         icon: pin
+          //       });
 
-              var text = document.createElement('text');
-              text.textContent = timeanddate
-              infowincontent.appendChild(text);
-              var pin = customLabel[company] || {};
-
-              var marker = new google.maps.Marker({
-                map: map,
-                position: point,
-                icon: pin
-              });
-
-              marker.addListener('click', function () {
-                infoWindow.setContent(infowincontent);
-                infoWindow.open(map, marker);
-              });
-            });
-          }
-          else {
+          //       marker.addListener('click', function () {
+          //         infoWindow.setContent(infowincontent);
+          //         infoWindow.open(map, marker);
+          //       });
+          //     }
+          //     else {
+          //       // alert(id);
+          //     }
+          //   });
+          // }
+          // else {
             var point = new google.maps.LatLng(
               parseFloat(markerElem.getAttribute('lat')),
               parseFloat(markerElem.getAttribute('lng')));
@@ -473,9 +475,7 @@
               infoWindow.open(map, marker);
             });
 
-          }
-
-
+          // } //else
 
         });
       });

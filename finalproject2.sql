@@ -136,7 +136,7 @@ IGNORE 1 LINES
 SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', @time_str), '%c/%e/%Y %r');
 
 delete from dataFromDiplo
-where id > 1000 or dateAndTime is null;
+where id > 70 or dateAndTime is null;
 
 select * from dataFromDiplo;
 
@@ -161,7 +161,7 @@ IGNORE 1 LINES
 SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%c/%e/%Y %T');
 
 delete from dataFromCarmel
-where id > 1000 or dateAndTime is null;
+where id > 70 or dateAndTime is null;
 
 select * from dataFromCarmel;
 
