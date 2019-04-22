@@ -172,6 +172,15 @@ WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
 
 SELECT * FROM lateTripsCarmel join dataFromCarmel using(id, dateAndTime, company);
 
+-- Late Dial7 trips
+DROP VIEW IF EXISTS lateTripsDial7;
+CREATE VIEW lateTripsDial7
+AS SELECT id, dateAndTime, company
+FROM dataFromDial7
+WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
+
+SELECT * FROM lateTripsDial7 join dataFromDial7 using(id, dateAndTime, company);
+
 -- stored procedures to get late rides
 DROP PROCEDURE IF EXISTS lateUberJul;
 DELIMITER //
@@ -212,6 +221,16 @@ FROM lateTripsCarmel join dataFromCarmel using(id, dateAndTime, company);
 END //
 DELIMITER ;
 CALL lateCarmel;
+
+DROP PROCEDURE IF EXISTS lateDial7;
+DELIMITER //
+CREATE PROCEDURE lateDial7()
+BEGIN
+SELECT *
+FROM lateTripsDial7 join dataFromDial7 using(id, dateAndTime, company);
+END //
+DELIMITER ;
+CALL lateDial7;
 
 DROP TABLE IF EXISTS dataFromDial7;
 CREATE TABLE dataFromDial7
