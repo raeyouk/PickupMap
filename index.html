@@ -18,8 +18,7 @@
     <input id="toggle" type="checkbox" onchange="toggled()">
     <span class="slider round"></span>
   </label>
-  <div class="text" id="dark">A Toggle
-  </div>
+  <div class="text" id="dark">Dark Mode</div>
 
   <div id="wrapper">
     <button id="btn1" class="button" onclick="whichButton(this)">All Rides</button>
@@ -37,7 +36,6 @@
     var customLabel = {
       Uber: {
         url: 'http://localhost/PickupMap/icons/ubersmaller',
-        //   scaledSize : new google.maps.Size(50, 50)
       },
       Lyft: {
         url: 'http://localhost/PickupMap/icons/lyftsmaller',
@@ -173,31 +171,31 @@
           //   var name = markerElem.getAttribute('name');
           var timeanddate = markerElem.getAttribute('timeanddate');
           var company = markerElem.getAttribute('company');
-            var point = new google.maps.LatLng(
-              parseFloat(markerElem.getAttribute('lat')),
-              parseFloat(markerElem.getAttribute('lng')));
-            var infowincontent = document.createElement('div');
-            var strong = document.createElement('strong');
-            //   strong.textContent = name
-            strong.textContent = "Pickup Time:"
-            infowincontent.appendChild(strong);
-            infowincontent.appendChild(document.createElement('br'));
+          var point = new google.maps.LatLng(
+            parseFloat(markerElem.getAttribute('lat')),
+            parseFloat(markerElem.getAttribute('lng')));
+          var infowincontent = document.createElement('div');
+          var strong = document.createElement('strong');
+          //   strong.textContent = name
+          strong.textContent = "Pickup Time:"
+          infowincontent.appendChild(strong);
+          infowincontent.appendChild(document.createElement('br'));
 
-            var text = document.createElement('text');
-            text.textContent = timeanddate
-            infowincontent.appendChild(text);
-            var pin = customLabel[company] || {};
+          var text = document.createElement('text');
+          text.textContent = timeanddate
+          infowincontent.appendChild(text);
+          var pin = customLabel[company] || {};
 
-            var marker = new google.maps.Marker({
-              map: map,
-              position: point,
-              icon: pin
-            });
+          var marker = new google.maps.Marker({
+            map: map,
+            position: point,
+            icon: pin
+          });
 
-            marker.addListener('click', function () {
-              infoWindow.setContent(infowincontent);
-              infoWindow.open(map, marker);
-            });
+          marker.addListener('click', function () {
+            infoWindow.setContent(infowincontent);
+            infoWindow.open(map, marker);
+          });
 
         });
       });
