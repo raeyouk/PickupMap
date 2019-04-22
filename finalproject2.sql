@@ -1,5 +1,3 @@
-/*final project*/
-
 DROP DATABASE IF EXISTS drivingService;
 CREATE DATABASE drivingService;
 USE drivingService;
@@ -24,7 +22,26 @@ CREATE TABLE dataFromLyft
     company			VARCHAR(255)	DEFAULT "Lyft"
 );
 
-drop trigger if exists yorkCheckUber;
+DROP TABLE IF EXISTS dataFromDiplo;
+CREATE TABLE dataFromDiplo
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Diplo"
+);
+
+DROP TABLE IF EXISTS dataFromCarmel;
+CREATE TABLE dataFromCarmel
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Carmel"
+);
+
+-- trigger to remove New Jersey and Staten Island points
+drop trigger if exists yorkCheckUber; 
 delimiter //
 CREATE TRIGGER yorkCheckUber BEFORE INSERT ON dataFromUberJul
        FOR EACH ROW
@@ -35,13 +52,13 @@ CREATE TRIGGER yorkCheckUber BEFORE INSERT ON dataFromUberJul
            OR NEW.longitude > -73.731 -- right
            OR NEW.latitude < 40.567 -- bottom
            OR NEW.latitude > 40.92 THEN -- top
-               SET NEW.dateAndTime = null;
+               SET NEW.dateAndTime = null; -- make point invalid
            END IF;
        END;//
 delimiter ;
 
-drop trigger if exists yorkCheckLyft;
-
+-- trigger to remove Staten Island points
+drop trigger if exists yorkCheckLyft; 
 delimiter //
 CREATE TRIGGER yorkCheckLyft BEFORE INSERT ON dataFromLyft
        FOR EACH ROW
@@ -52,7 +69,10 @@ CREATE TRIGGER yorkCheckLyft BEFORE INSERT ON dataFromLyft
        END;//
 delimiter ;
 
-/*insert uber data into database*/
+-- to allow delete where dateAndTime is null
+SET SQL_SAFE_UPDATES = 0; 
+
+-- insert uber data into database
 LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/uber-trip-data/uber-raw-data-jul14.csv' 
 #LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/uber-trip-data/uber-raw-data-jul14.csv' 
 INTO TABLE dataFromUberJul
@@ -63,14 +83,12 @@ IGNORE 1 LINES
 (@date_str, latitude, longitude, @dummy)
 SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y %T');
 
-SET SQL_SAFE_UPDATES = 0;
-
 delete from dataFromUberJul
-where id > 1000 or dateAndTime is null;
+where id > 1000 or dateAndTime is null; -- limit and remove invalid points
 
 SELECT * FROM dataFromUberJul;
 
-/*insert lyft data into database*/
+-- insert lyft data into database
 #LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Lyft_B02510.csv'
 LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Lyft_B02510.csv'
 #LOAD DATA INFILE '/⁨Users⁩/⁨samanthaaxline⁩/⁨Downloads⁩'
@@ -87,70 +105,23 @@ where id > 1000 or dateAndTime is null;
 
 SELECT * FROM dataFromLyft;
 
-DROP TABLE IF EXISTS lateTripsLyft;
-CREATE TABLE lateTripsLyft AS
-SELECT id, dateAndTime, company
-FROM dataFromLyft 
-WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
-ALTER TABLE lateTripsLyft ADD PRIMARY KEY(id);
-
-SELECT id, dateAndTime, latitude, longitude, company FROM lateTripsLyft join dataFromLyft using(id, dateAndTime, company);
-
-DROP PROCEDURE IF EXISTS showData;
-DELIMITER //
-CREATE PROCEDURE showData()
-BEGIN
-SELECT * 
-FROM lateTripsLyft;
-END //
-DELIMITER ;
-CALL showData;
-
-
-DROP VIEW IF EXISTS lateTripsUber;
-CREATE VIEW lateTripsUber
-AS SELECT id, dateAndTime, company
-FROM dataFromUberJul
-WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
-
-SELECT * FROM lateTripsUber join dataFromUberJul using(id, dateAndTime, company);
-
-DROP TABLE IF EXISTS dataFromDiplo;
-CREATE TABLE dataFromDiplo
-(
-	id				INT	PRIMARY KEY	AUTO_INCREMENT,
-	dateAndTime     DATETIME,
-	address			VARCHAR(255),
-    company			VARCHAR(255)	DEFAULT "Diplo"
-);
-
+-- insert Diplo
 LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
 #LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
 INTO TABLE dataFromDiplo
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
-#FIELDS TERMINATED BY ','
-#ENCLOSED BY '"'
-#LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@date_str, @time_str, address)
 SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', @time_str), '%c/%e/%Y %r');
 
 delete from dataFromDiplo
-where id > 70 or dateAndTime is null;
+where id > 50 or dateAndTime is null;
 
 select * from dataFromDiplo;
 
-DROP TABLE IF EXISTS dataFromCarmel;
-CREATE TABLE dataFromCarmel
-(
-	id				INT	PRIMARY KEY	AUTO_INCREMENT,
-	dateAndTime     DATETIME,
-	address			VARCHAR(255),
-    company			VARCHAR(255)	DEFAULT "Carmel"
-);
-
+-- insert Carmel
 LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Carmel_B00256.csv' 
-#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Diplo_B01196.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Carmel_B00256.csv' 
 INTO TABLE dataFromCarmel
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
 #FIELDS TERMINATED BY ','
@@ -161,9 +132,113 @@ IGNORE 1 LINES
 SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%c/%e/%Y %T');
 
 delete from dataFromCarmel
-where id > 70 or dateAndTime is null;
+where id > 50 or dateAndTime is null;
 
 select * from dataFromCarmel;
+
+-- Late Uber trips
+DROP VIEW IF EXISTS lateTripsUberJul;
+CREATE VIEW lateTripsUberJul
+AS SELECT id, dateAndTime, company
+FROM dataFromUberJul
+WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
+
+SELECT * FROM lateTripsUberJul join dataFromUberJul using(id, dateAndTime, company);
+
+-- Late Lyft trips
+DROP VIEW IF EXISTS lateTripsLyft;
+CREATE VIEW lateTripsLyft
+AS SELECT id, dateAndTime, company
+FROM dataFromLyft
+WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
+
+SELECT * FROM lateTripsLyft join dataFromLyft using(id, dateAndTime, company);
+
+-- Late Diplo trips
+DROP VIEW IF EXISTS lateTripsDiplo;
+CREATE VIEW lateTripsDiplo
+AS SELECT id, dateAndTime, company
+FROM dataFromDiplo
+WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
+
+SELECT * FROM lateTripsDiplo join dataFromDiplo using(id, dateAndTime, company);
+
+-- Late Carmel trips
+DROP VIEW IF EXISTS lateTripsCarmel;
+CREATE VIEW lateTripsCarmel
+AS SELECT id, dateAndTime, company
+FROM dataFromCarmel
+WHERE hour(dateAndTime)  > 22 OR hour(dateAndTime)  < 4;
+
+SELECT * FROM lateTripsCarmel join dataFromCarmel using(id, dateAndTime, company);
+
+-- stored procedures to get late rides
+DROP PROCEDURE IF EXISTS lateUberJul;
+DELIMITER //
+CREATE PROCEDURE lateUberJul()
+BEGIN
+SELECT *
+FROM lateTripsUberJul join dataFromUberJul using(id, dateAndTime, company);
+END //
+DELIMITER ;
+CALL lateUberJul;
+
+DROP PROCEDURE IF EXISTS lateLyft;
+DELIMITER //
+CREATE PROCEDURE lateLyft()
+BEGIN
+SELECT *
+FROM lateTripsLyft join dataFromLyft using(id, dateAndTime, company);
+END //
+DELIMITER ;
+CALL lateLyft;
+
+DROP PROCEDURE IF EXISTS lateDiplo;
+DELIMITER //
+CREATE PROCEDURE lateDiplo()
+BEGIN
+SELECT *
+FROM lateTripsDiplo join dataFromDiplo using(id, dateAndTime, company);
+END //
+DELIMITER ;
+CALL lateDiplo;
+
+DROP PROCEDURE IF EXISTS lateCarmel;
+DELIMITER //
+CREATE PROCEDURE lateCarmel()
+BEGIN
+SELECT *
+FROM lateTripsCarmel join dataFromCarmel using(id, dateAndTime, company);
+END //
+DELIMITER ;
+CALL lateCarmel;
+
+DROP TABLE IF EXISTS dataFromDial7;
+CREATE TABLE dataFromDial7
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Dial7"
+);
+
+-- insert 
+LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
+INTO TABLE dataFromDial7
+FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
+#FIELDS TERMINATED BY ','
+#ENCLOSED BY '"'
+#LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(@date_str, @time_str, @dummy, @pu, @num, @st)
+SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%Y.%m.%d %T'),
+address = (CONCAT(@num, ' ', @st, @pu));
+
+delete from dataFromDial7
+where id > 50 or dateAndTime is null;
+
+select * from dataFromDial7;
 
 #SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y') + CAST(@time_str AS time) 
 #STR_TO_DATE(@time_str, '%r');
