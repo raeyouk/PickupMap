@@ -254,8 +254,6 @@
 
   </div></br>
 
-  <!-- <button id="clearer" onclick="clearOverlays()">Clear</button> -->
-
   <input id="pac-input" class="controls" type="text" placeholder="Search">
 
   <div id="map"></div>
@@ -267,14 +265,13 @@
       },
       Lyft: {
         url: 'http://localhost/PickupMap/icons/lyftsmaller',
-        // label: 'a',
 
       },
       Diplo: {
         url: 'http://localhost/PickupMap/icons/diplosmaller',
       },
       Carmel: {
-        // url: 'http://localhost/PickupMap/icons/diplosmaller',
+        url: 'http://localhost/PickupMap/icons/carmelsmaller',
       },
     };
 
@@ -289,20 +286,17 @@
         mapTypeId: 'roadmap'
       });
 
-      // Create the search box and link it to the UI element.
+      // Create search box and link to UI
       var input = document.getElementById('pac-input');
       var searchBox = new google.maps.places.SearchBox(input);
       map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
-      // Bias the SearchBox results towards current map's viewport.
+      // Bias the search results to map's viewport.
       map.addListener('bounds_changed', function () {
         searchBox.setBounds(map.getBounds());
       });
 
-      // var markers = [];
-
-      // Listen for the event fired when the user selects a prediction and retrieve
-      // more details for that place.
+      // Listen for event when user selects a prediction and retrieve details
       searchBox.addListener('places_changed', function () {
         var places = searchBox.getPlaces();
 
@@ -310,13 +304,13 @@
           return;
         }
 
-        // Clear out the old markers.
+        // Clear old markers.
         markers.forEach(function (marker) {
           marker.setMap(null);
         });
         markers = [];
 
-        // For each place, get the icon, name and location.
+        // For each place, get icon, name and location.
         var bounds = new google.maps.LatLngBounds();
         places.forEach(function (place) {
           if (!place.geometry) {
@@ -331,7 +325,7 @@
             scaledSize: new google.maps.Size(50, 50)
           };
 
-          // Create a marker for each place.
+          // Create marker for each place.
           markers.push(new google.maps.Marker({
             map: map,
             icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
@@ -340,7 +334,6 @@
           }));
 
           if (place.geometry.viewport) {
-            // Only geocodes have viewport.
             bounds.union(place.geometry.viewport);
           } else {
             bounds.extend(place.geometry.location);
@@ -380,10 +373,8 @@
     //   }
 
     function whichButton(buttonElement) {
-      // alert(buttonElement.id);
       var buttonClickedId = buttonElement.id;
       var connection;
-
       if (buttonClickedId === 'btn1') {
         connection = 'http://localhost/PickupMap/conn.php';
       }
@@ -403,55 +394,9 @@
           //   var name = markerElem.getAttribute('name');
           var timeanddate = markerElem.getAttribute('timeanddate');
           var company = markerElem.getAttribute('company');
-
-          // if (markerElem.hasAttribute('address')) {
-          //   var geocoder = new google.maps.Geocoder();
-          //   var address = markerElem.getAttribute('address');
-          //   geocoder.geocode({ 'address': address }, function (results, status) {
-          //     if (status == google.maps.GeocoderStatus.OK) {
-          //       alert(id);
-          //       var latitude = results[0].geometry.location.lat();
-          //       var longitude = results[0].geometry.location.lng();
-
-          //       var point = new google.maps.LatLng(latitude, longitude);
-
-          //       // alert(point);
-
-          //       var infowincontent = document.createElement('div');
-          //       var strong = document.createElement('strong');
-          //       //   strong.textContent = name
-          //       strong.textContent = "Pickup Time:"
-          //       infowincontent.appendChild(strong);
-          //       infowincontent.appendChild(document.createElement('br'));
-
-          //       var text = document.createElement('text');
-          //       text.textContent = timeanddate
-          //       infowincontent.appendChild(text);
-          //       var pin = customLabel[company] || {};
-
-          //       var marker = new google.maps.Marker({
-          //         map: map,
-          //         position: point,
-          //         icon: pin
-          //       });
-
-          //       marker.addListener('click', function () {
-          //         infoWindow.setContent(infowincontent);
-          //         infoWindow.open(map, marker);
-          //       });
-          //     }
-          //     else {
-          //       // alert(id);
-          //     }
-          //   });
-          // }
-          // else {
             var point = new google.maps.LatLng(
               parseFloat(markerElem.getAttribute('lat')),
               parseFloat(markerElem.getAttribute('lng')));
-
-            // alert(point);
-
             var infowincontent = document.createElement('div');
             var strong = document.createElement('strong');
             //   strong.textContent = name
@@ -474,8 +419,6 @@
               infoWindow.setContent(infowincontent);
               infoWindow.open(map, marker);
             });
-
-          // } //else
 
         });
       });
