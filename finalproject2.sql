@@ -40,6 +40,15 @@ CREATE TABLE dataFromCarmel
     company			VARCHAR(255)	DEFAULT "Carmel"
 );
 
+DROP TABLE IF EXISTS dataFromDial7;
+CREATE TABLE dataFromDial7
+(
+	id				INT	PRIMARY KEY	AUTO_INCREMENT,
+	dateAndTime     DATETIME,
+	address			VARCHAR(255),
+    company			VARCHAR(255)	DEFAULT "Dial7"
+);
+
 -- trigger to remove New Jersey and Staten Island points
 drop trigger if exists yorkCheckUber; 
 delimiter //
@@ -124,9 +133,6 @@ LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FH
 #LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Carmel_B00256.csv' 
 INTO TABLE dataFromCarmel
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
-#FIELDS TERMINATED BY ','
-#ENCLOSED BY '"'
-#LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (@date_str, @time_str, address, @dummy)
 SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%c/%e/%Y %T');
@@ -135,6 +141,21 @@ delete from dataFromCarmel
 where id > 50 or dateAndTime is null;
 
 select * from dataFromCarmel;
+
+-- insert Dial7
+LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
+#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
+INTO TABLE dataFromDial7
+FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(@date_str, @time_str, @dummy, @pu, @num, @st)
+SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%Y.%m.%d %T'),
+address = (CONCAT(@num, ' ', @st, @pu));
+
+delete from dataFromDial7
+where id > 50 or dateAndTime is null;
+
+select * from dataFromDial7;
 
 -- Late Uber trips
 DROP VIEW IF EXISTS lateTripsUberJul;
@@ -231,36 +252,3 @@ FROM lateTripsDial7 join dataFromDial7 using(id, dateAndTime, company);
 END //
 DELIMITER ;
 CALL lateDial7;
-
-DROP TABLE IF EXISTS dataFromDial7;
-CREATE TABLE dataFromDial7
-(
-	id				INT	PRIMARY KEY	AUTO_INCREMENT,
-	dateAndTime     DATETIME,
-	address			VARCHAR(255),
-    company			VARCHAR(255)	DEFAULT "Dial7"
-);
-
--- insert 
-LOAD DATA INFILE 'D:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
-#LOAD DATA INFILE 'C:/wamp64/www/PickupMap/uber-tlc-foil-response-master/other-FHV-data/Dial7_B00887.csv' 
-INTO TABLE dataFromDial7
-FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
-#FIELDS TERMINATED BY ','
-#ENCLOSED BY '"'
-#LINES TERMINATED BY '\n'
-IGNORE 1 LINES
-(@date_str, @time_str, @dummy, @pu, @num, @st)
-SET dateAndTime = STR_TO_DATE(CONCAT(@date_str, ' ', cast(@time_str as time)), '%Y.%m.%d %T'),
-address = (CONCAT(@num, ' ', @st, @pu));
-
-delete from dataFromDial7
-where id > 50 or dateAndTime is null;
-
-select * from dataFromDial7;
-
-#SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y') + CAST(@time_str AS time) 
-#STR_TO_DATE(@time_str, '%r');
-
-#SET dateAndTime = cast(@date_str as datetime) + cast(@time_str as datetime);
-#SET dateAndTime = STR_TO_DATE(@date_str, '%c/%e/%Y %T');
