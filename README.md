@@ -1,3 +1,3 @@
 <h2> PickupMap </h2>
 
-Letting people see who's the best ride service
+This website allows users to input a location and find the locations of rideshare pick-ups which can help them determine which rideshare company they should choose. (Searches are limited to New York)
