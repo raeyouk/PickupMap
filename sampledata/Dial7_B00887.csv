@@ -1,0 +1,1000 @@
+Date,Time,State,PuFrom,Address,Street
+2014.07.06,14:30,NY                                                                                                                           ,MANHATTAN,50,MURRAY ST           
+2014.07.04,7:15,NY                                                                                                                           ,MANHATTAN,143,AVENUE B            
+2014.07.05,5:45,NY                                                                                                                           ,MANHATTAN,125,CHRISTOPHER ST      
+2014.07.06,4:30,NY                                                                                                                           ,MANHATTAN,217,E 7 ST              
+2014.07.05,7:45,NY                                                                                                                           ,MANHATTAN,521,W 26 ST             
+2014.07.06,8:45,NY                                                                                                                           ,MANHATTAN,110,BLEECKER ST         
+2014.07.06,6:45,NY                                                                                                                           ,MANHATTAN,220,E 57 St             
+2014.07.06,11:30,NY                                                                                                                           ,MANHATTAN,440,E 20 ST             
+2014.07.03,12:00,NY                                                                                                                           ,QUEENS,2204,119 ST              
+2014.07.03,13:00,NY                                                                                                                           ,MANHATTAN,286,E 10 ST             
+2014.07.09,15:42,EWR US AIR OUTSIDE DOOR #8                                                                                                   ,EWR,      ,                    
+2014.07.03,5:30,NY                                                                                                                           ,MANHATTAN,85,WEST ST             
+2014.07.04,9:45,NY                                                                                                                           ,MANHATTAN,99,BATTERY PL          
+2014.07.09,4:15,NY                                                                                                                           ,MANHATTAN,613,6 AVE               
+2014.07.15,5:45,NY                                                                                                                           ,MANHATTAN,27,BETHUNE ST          
+2014.07.11,4:15,NY                                                                                                                           ,MANHATTAN,117,SULLIVAN ST         
+2014.07.04,6:15,NY                                                                                                                           ,MANHATTAN,411,E 57 St             
+2014.07.12,4:00,NY                                                                                                                           ,MANHATTAN,200,2 AVE               
+2014.07.10,8:00,NY                                                                                                                           ,QUEENS,27110,GRAND CENTRAL PKWY  
+2014.07.16,6:00,NY                                                                                                                           ,MANHATTAN,9,STUYVESANT OVAL     
+2014.07.07,9:00,NY                                                                                                                           ,MANHATTAN,102,1 AVE               
+2014.07.07,6:50,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.07.10,6:00,NY                                                                                                                           ,MANHATTAN,218,AVENUE A            
+2014.07.12,6:35,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.09,8:02,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.07.13,7:00,NY                                                                                                                           ,MANHATTAN,113,CEDAR ST            
+2014.08.09,7:45,NY                                                                                                                           ,MANHATTAN,103,WAVERLY PL          
+2014.07.10,4:00,NY                                                                                                                           ,MANHATTAN,225,E 26 ST             
+2014.07.15,4:00,NY                                                                                                                           ,MANHATTAN,451,BROOME ST           
+2014.07.18,6:00,NY                                                                                                                           ,MANHATTAN,85,8 AVE               
+2014.07.03,4:00,NY                                                                                                                           ,MANHATTAN,231,W 26 ST             
+2014.07.16,4:45,NY                                                                                                                           ,MANHATTAN,30,E 30 ST             
+2014.07.07,5:15,NY                                                                                                                           ,MANHATTAN,10,RUTGERS ST          
+2014.07.09,17:00,NY                                                                                                                           ,MANHATTAN,130,5 AVE               
+2014.07.09,13:15,NY                                                                                                                           ,MANHATTAN,200,W 72 ST             
+2014.07.03,9:30,NY                                                                                                                           ,QUEENS,4615,CENTER BLVD         
+2014.07.04,5:00,NY                                                                                                                           ,MANHATTAN,82,IRVING PL           
+2014.07.07,4:15,NY                                                                                                                           ,MANHATTAN,244,E 21 St             
+2014.07.14,5:00,NY                                                                                                                           ,MANHATTAN,36,GRAMERCY PK E       
+2014.07.13,5:30,NY                                                                                                                           ,MANHATTAN,505,GREENWICH ST        
+2014.07.13,7:46,JFK United Domestic Pickup Area A                                                                                            ,JFK,      ,                    
+2014.07.18,8:45,NY                                                                                                                           ,QUEENS,2710,PARSONS BLVD        
+2014.07.14,3:45,NY                                                                                                                           ,MANHATTAN,360,W 15 ST             
+2014.07.14,7:30,NY                                                                                                                           ,MANHATTAN,666,WEST END AVE        
+2014.07.01,16:49,NY                                                                                                                           ,MANHATTAN,151,W 34 ST             
+2014.07.09,6:30,NY                                                                                                                           ,MANHATTAN,50,MURRAY ST           
+2014.07.11,5:15,NY                                                                                                                           ,MANHATTAN,70,LITTLE WEST ST      
+2014.07.21,8:30,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.07.21,7:15,NY                                                                                                                           ,MANHATTAN,39,E 29 ST             
+2014.07.21,5:00,NY                                                                                                                           ,MANHATTAN,353,E 72 ST             
+2014.07.21,6:00,NY                                                                                                                           ,MANHATTAN,115,ELIZABETH ST        
+2014.07.22,6:15,NY                                                                                                                           ,MANHATTAN,615,E 14 ST             
+2014.07.21,4:15,NY                                                                                                                           ,MANHATTAN,184,THOMPSON ST         
+2014.07.20,6:45,NY                                                                                                                           ,MANHATTAN,1,ASTOR PL            
+2014.07.15,9:30,NY                                                                                                                           ,QUEENS,2145,44 DR               
+2014.07.15,7:00,NY                                                                                                                           ,MANHATTAN,77,BLEECKER ST         
+2014.07.24,4:15,NY                                                                                                                           ,MANHATTAN,26,GRAND ST            
+2014.07.16,7:30,NY                                                                                                                           ,MANHATTAN,50,BATTERY PL          
+2014.07.19,4:15,NY                                                                                                                           ,MANHATTAN,60,E 8 ST              
+2014.07.18,6:45,NY                                                                                                                           ,MANHATTAN,312,11 AVE              
+2014.07.25,7:00,NY                                                                                                                           ,MANHATTAN,8,STONE ST            
+2014.07.14,6:01,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.23,6:00,NY                                                                                                                           ,MANHATTAN,131,PERRY ST            
+2014.07.28,11:00,NY                                                                                                                           ,MANHATTAN,4,E 95 ST             
+2014.07.17,5:15,NY                                                                                                                           ,MANHATTAN,141,2 AVE               
+2014.07.30,6:30,NY                                                                                                                           ,MANHATTAN,131,MADISON AVE         
+2014.07.23,4:15,NY                                                                                                                           ,MANHATTAN,560,W 43 ST             
+2014.07.25,4:00,NY                                                                                                                           ,MANHATTAN,122,MACDOUGAL ST        
+2014.07.03,7:15,NY                                                                                                                           ,MANHATTAN,95,PERRY ST            
+2014.07.17,4:00,NY                                                                                                                           ,MANHATTAN,21,E 10 ST             
+2014.07.29,6:45,NY                                                                                                                           ,MANHATTAN,120,E 34 ST             
+2014.07.29,5:07,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.19,6:45,NY                                                                                                                           ,MANHATTAN,313,E 9 ST              
+2014.07.26,4:00,NY                                                                                                                           ,MANHATTAN,450,W 17 St             
+2014.07.26,5:30,NY                                                                                                                           ,Manhattan                               ,57,ANN ST              
+2014.08.07,4:00,NY                                                                                                                           ,MANHATTAN,111,E 48 ST             
+2014.07.12,9:15,NY                                                                                                                           ,MANHATTAN,410,E 92 ST             
+2014.07.28,5:00,NY                                                                                                                           ,QUEENS,2711,CORP KENNEDY ST     
+2014.07.22,4:15,NY                                                                                                                           ,MANHATTAN,250,W 50 ST             
+2014.08.04,9:30,NY                                                                                                                           ,MANHATTAN,1335,6 AVE               
+2014.07.16,8:15,NY                                                                                                                           ,MANHATTAN,167,E 61 ST             
+2014.07.23,9:00,NY                                                                                                                           ,MANHATTAN,345,W 58 ST             
+2014.07.28,9:45,NY                                                                                                                           ,MANHATTAN,355,8 AVE               
+2014.07.18,4:15,NY                                                                                                                           ,MANHATTAN,57,E 57 ST             
+2014.07.24,6:00,NY                                                                                                                           ,MANHATTAN,111,BARROW ST           
+2014.07.23,7:28,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.07.22,8:00,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.08.02,4:30,NY                                                                                                                           ,MANHATTAN,201,E 2 ST              
+2014.07.27,11:00,NY                                                                                                                           ,QUEENS,475,48 AVE              
+2014.07.25,5:30,NY                                                                                                                           ,MANHATTAN,260,W 26 ST             
+2014.08.01,4:45,NY                                                                                                                           ,MANHATTAN,200,RECTOR PL           
+2014.07.31,4:00,NY                                                                                                                           ,MANHATTAN,21,WEST ST             
+2014.07.30,8:45,NY                                                                                                                           ,QUEENS,15846,76 AVE              
+2014.08.03,5:45,NY                                                                                                                           ,MANHATTAN,142,WEST END AVE        
+2014.07.29,4:15,NY                                                                                                                           ,MANHATTAN,303,BROOME ST           
+2014.07.28,4:00,NY                                                                                                                           ,MANHATTAN,118,W 73 ST             
+2014.08.11,5:45,NY                                                                                                                           ,MANHATTAN,116,W 14 ST             
+2014.08.09,4:47,NY                                                                                                                           ,MANHATTAN,321,W 16 ST             
+2014.07.28,8:05,EWR UNITED TERM A DOOR 2                                                                                                     ,,      ,                    
+2014.08.10,4:15,NY                                                                                                                           ,Manhattan                               ,55,W 25 ST             
+2014.08.08,7:45,NY                                                                                                                           ,MANHATTAN,130,W 15 ST             
+2014.08.01,6:00,NY                                                                                                                           ,MANHATTAN,125,E 50 ST             
+2014.08.02,6:30,NY                                                                                                                           ,MANHATTAN,310,WEST BROADWAY       
+2014.08.02,8:07,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.08.08,5:15,NY                                                                                                                           ,MANHATTAN,661,WASHINGTON ST       
+2014.08.13,9:45,NY                                                                                                                           ,MANHATTAN,221,W 20 ST             
+2014.08.12,7:00,NY                                                                                                                           ,MANHATTAN,320,E 23 ST             
+2014.08.09,4:00,NY                                                                                                                           ,MANHATTAN,129,3 Ave               
+2014.08.15,6:30,NY                                                                                                                           ,MANHATTAN,9,CROSBY ST           
+2014.07.28,6:15,NY                                                                                                                           ,MANHATTAN,380,RECTOR PL           
+2014.07.27,5:30,NY                                                                                                                           ,MANHATTAN,504,GRAND ST            
+2014.08.12,4:00,NY                                                                                                                           ,MANHATTAN,525,W 49 ST             
+2014.08.12,6:15,NY                                                                                                                           ,MANHATTAN,1,ASTOR PL            
+2014.07.31,6:00,NY                                                                                                                           ,MANHATTAN,100,E 31 ST             
+2014.08.11,4:45,NY                                                                                                                           ,MANHATTAN,49,KING ST             
+2014.08.04,4:15,NY                                                                                                                           ,MANHATTAN,344,W 23 ST             
+2014.08.10,12:15,NY                                                                                                                           ,MANHATTAN,10,WATERSIDE PLAZA     
+2014.08.14,6:15,NY                                                                                                                           ,MANHATTAN,303,W 21 ST             
+2014.08.15,8:00,NY                                                                                                                           ,QUEENS,405,MAIN ST             
+2014.08.15,3:45,NY                                                                                                                           ,MANHATTAN,4,PETER COOPER RD     
+2014.08.06,7:30,NY                                                                                                                           ,MANHATTAN,402,E 65 ST             
+2014.08.07,5:30,NY                                                                                                                           ,MANHATTAN,21,WEST ST             
+2014.08.04,10:00,NY                                                                                                                           ,MANHATTAN,511,LEXINGTON AVE       
+2014.08.04,7:48,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.08.12,8:09,LGA AIR CANADA Pick-up Island                                                                                                ,,      ,                    
+2014.08.14,4:00,NY                                                                                                                           ,MANHATTAN,245,E 63 ST             
+2014.08.04,5:15,NY                                                                                                                           ,MANHATTAN,350,W 37 ST             
+2014.08.04,6:15,NY                                                                                                                           ,MANHATTAN,201,E 31 ST             
+2014.08.14,8:09,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.10,5:30,JFK Us Air Pickup Area A                                                                                                     ,JFK,      ,                    
+2014.08.06,4:15,NY                                                                                                                           ,MANHATTAN,250,E HOUSTON ST        
+2014.08.25,5:30,NY                                                                                                                           ,MANHATTAN,179,CHRISTOPHER ST      
+2014.08.19,5:30,NY                                                                                                                           ,MANHATTAN,575,Grand St            
+2014.08.16,4:00,NY                                                                                                                           ,MANHATTAN,43,AVENUE C            
+2014.08.13,4:00,NY                                                                                                                           ,MANHATTAN,95,CHRISTOPHER ST      
+2014.08.22,4:00,NY                                                                                                                           ,MANHATTAN,145,E 39 ST             
+2014.08.11,4:15,NY                                                                                                                           ,MANHATTAN,247,CENTRE ST           
+2014.08.19,3:45,NY                                                                                                                           ,MANHATTAN,170,E 3 ST              
+2014.08.19,8:15,NY                                                                                                                           ,MANHATTAN,131,CHARLES ST          
+2014.08.03,8:30,NY                                                                                                                           ,MANHATTAN,148,CHAMBERS ST         
+2014.08.17,5:15,NY                                                                                                                           ,MANHATTAN,533,CANAL ST            
+2014.08.17,7:00,NY                                                                                                                           ,MANHATTAN,54,MORTON ST           
+2014.08.17,4:00,NY                                                                                                                           ,MANHATTAN,247,WADSWORTH AVE       
+2014.08.17,9:00,NY                                                                                                                           ,MANHATTAN,200,RECTOR PL           
+2014.07.31,7:30,NY                                                                                                                           ,MANHATTAN,92,E 7 ST              
+2014.08.01,4:00,NY                                                                                                                           ,MANHATTAN,260,W 54 ST             
+2014.08.23,12:30,NY                                                                                                                           ,MANHATTAN,330,1 AVE               
+2014.08.13,6:30,NY                                                                                                                           ,MANHATTAN,145,E 15 ST             
+2014.08.22,4:46,NY                                                                                                                           ,MANHATTAN,19,E 34 ST             
+2014.08.24,9:45,NY                                                                                                                           ,MANHATTAN,70,E 10 ST             
+2014.08.28,9:45,NY                                                                                                                           ,MANHATTAN,270,PARK AVE            
+2014.08.24,5:50,NY                                                                                                                           ,MANHATTAN,29,BROADWAY            
+2014.08.06,7:00,NY                                                                                                                           ,MANHATTAN,167,PERRY ST            
+2014.08.29,6:15,NY                                                                                                                           ,MANHATTAN,400,CHAMBERS ST         
+2014.08.22,8:30,NY                                                                                                                           ,MANHATTAN,410,E 9 ST              
+2014.08.03,4:00,NY                                                                                                                           ,MANHATTAN,339,E 33 ST             
+2014.08.18,5:30,NY                                                                                                                           ,MANHATTAN,60,E  8 ST             
+2014.08.23,6:00,JFK DELTA TERM 4  P/U AREA C                                                                                                 ,,      ,                    
+2014.08.24,4:00,NY                                                                                                                           ,MANHATTAN,200,W 15 ST             
+2014.08.31,6:30,NY                                                                                                                           ,MANHATTAN,301,PARK AVE            
+2014.08.30,3:30,NY                                                                                                                           ,MANHATTAN,20,WATERSIDE PLAZA     
+2014.08.19,7:15,NY                                                                                                                           ,MANHATTAN,325,NORTH END AVE       
+2014.08.25,8:30,NY                                                                                                                           ,MANHATTAN,15,W 11 ST             
+2014.08.25,4:15,NY                                                                                                                           ,MANHATTAN,361,E 10 ST             
+2014.08.22,7:45,NY                                                                                                                           ,MANHATTAN,99,BATTERY PL          
+2014.08.10,9:30,NY                                                                                                                           ,MANHATTAN,375,SOUTH END AVE       
+2014.08.18,3:45,NY                                                                                                                           ,MANHATTAN,170,E 112 ST            
+2014.08.18,6:45,NY                                                                                                                           ,MANHATTAN,435,E 14 ST             
+2014.08.30,7:00,NY                                                                                                                           ,MANHATTAN,400,E 56 ST             
+2014.08.15,5:00,NY                                                                                                                           ,MANHATTAN,201,E 28 ST             
+2014.08.21,4:00,NY                                                                                                                           ,MANHATTAN,309,W 57 ST             
+2014.08.29,5:00,NY                                                                                                                           ,MANHATTAN,312,11 AVE              
+2014.08.18,4:45,NY                                                                                                                           ,MANHATTAN,40,HARRISON ST         
+2014.08.16,7:15,NY                                                                                                                           ,MANHATTAN,111,Worth St            
+2014.08.08,4:00,NY                                                                                                                           ,MANHATTAN,332,E 15 ST             
+2014.08.26,6:45,NY                                                                                                                           ,MANHATTAN,182,DUANE ST            
+2014.08.30,9:30,NY                                                                                                                           ,MANHATTAN,124,W HOUSTON ST        
+2014.09.14,9:24,NY                                                                                                                           ,MANHATTAN,790,12 AVE              
+2014.08.16,4:52,NY                                                                                                                           ,MANHATTAN,50,VANDERBILT AVE      
+2014.08.31,9:30,NY                                                                                                                           ,MANHATTAN,200,SPRING ST           
+2014.08.31,11:00,NY                                                                                                                           ,MANHATTAN,27,W 11 St             
+2014.08.28,4:00,NY                                                                                                                           ,MANHATTAN,300,W 55 ST             
+2014.08.28,7:14,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.28,6:15,NY                                                                                                                           ,MANHATTAN,225,E 4 ST              
+2014.09.07,7:52,JFK EL AL Pickup Area C                                                                                                      ,,      ,                    
+2014.08.20,5:30,NY                                                                                                                           ,MANHATTAN,220,E 65 ST             
+2014.08.27,4:15,NY                                                                                                                           ,MANHATTAN,210,Sullivan St         
+2014.08.27,6:15,NY                                                                                                                           ,MANHATTAN,520,W 43 ST             
+2014.08.29,7:30,NY                                                                                                                           ,MANHATTAN,60,W 23 ST             
+2014.08.23,10:15,NY                                                                                                                           ,MANHATTAN,375,SOUTH END AVE       
+2014.08.30,6:00,NY                                                                                                                           ,MANHATTAN,110,BLEECKER ST         
+2014.08.30,4:45,NY                                                                                                                           ,MANHATTAN,395,SOUTH END AVE       
+2014.09.03,7:30,NY                                                                                                                           ,MANHATTAN,80,5 AVE               
+2014.09.03,4:15,NY                                                                                                                           ,MANHATTAN,280,PARK AVE S          
+2014.08.20,11:15,NY                                                                                                                           ,QUEENS,3138,38 St               
+2014.09.07,4:37,NY                                                                                                                           ,MANHATTAN,320,PEARL ST            
+2014.09.02,3:45,NY                                                                                                                           ,MANHATTAN,120,E 87 ST             
+2014.09.02,6:15,NY                                                                                                                           ,MANHATTAN,100,MAIDEN LA           
+2014.09.11,7:45,NY                                                                                                                           ,MANHATTAN,145,E 27 ST             
+2014.09.11,4:15,NY                                                                                                                           ,MANHATTAN,433,W 43 ST             
+2014.09.09,7:00,NY                                                                                                                           ,QUEENS,3044,29 ST               
+2014.09.01,8:15,NY                                                                                                                           ,MANHATTAN,811,7 AVE               
+2014.08.23,9:25,NY                                                                                                                           ,MANHATTAN,116,E 30 ST             
+2014.08.23,13:30,NY                                                                                                                           ,MANHATTAN,245,E 124 ST            
+2014.08.25,6:20,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.09.01,9:30,NY                                                                                                                           ,MANHATTAN,88,LEONARD ST          
+2014.09.01,4:15,NY                                                                                                                           ,MANHATTAN,42,W 73 ST             
+2014.09.01,5:59,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.23,4:00,NY                                                                                                                           ,MANHATTAN,215,W 88 ST             
+2014.09.11,5:45,NY                                                                                                                           ,MANHATTAN,236,W 15 ST             
+2014.08.21,6:30,NY                                                                                                                           ,MANHATTAN,1,CHRISTOPHER ST      
+2014.08.31,4:30,NY                                                                                                                           ,QUEENS,5012,VERNON BLVD         
+2014.09.08,6:45,NY                                                                                                                           ,MANHATTAN,28,E 22 ST             
+2014.09.08,4:00,NY                                                                                                                           ,MANHATTAN,90,WILLIAM ST          
+2014.09.09,4:00,NY                                                                                                                           ,MANHATTAN,183,W 10 ST             
+2014.09.05,8:30,NY                                                                                                                           ,MANHATTAN,440,E 23 ST             
+2014.09.15,4:15,NY                                                                                                                           ,MANHATTAN,309,E 49 ST             
+2014.09.05,6:15,NY                                                                                                                           ,MANHATTAN,155,E 29 ST             
+2014.09.06,4:15,NY                                                                                                                           ,MANHATTAN,333,E 34 ST             
+2014.09.04,4:15,NY                                                                                                                           ,MANHATTAN,154,W 27 ST             
+2014.08.26,4:15,NY                                                                                                                           ,MANHATTAN,2025,BROADWAY            
+2014.08.29,4:00,NY                                                                                                                           ,MANHATTAN,21,E 52 ST             
+2014.09.02,5:00,NY                                                                                                                           ,MANHATTAN,312,11 AVE              
+2014.09.04,8:04,EWR UNITED DOOR 2                                                                                                            ,,      ,                    
+2014.09.07,7:00,NY                                                                                                                           ,MANHATTAN,30,E 9 ST              
+2014.09.09,5:45,NY                                                                                                                           ,MANHATTAN                               ,200,RECTOR PL           
+2014.09.07,8:50,NY                                                                                                                           ,MANHATTAN,641,12 AVE              
+2014.09.13,6:30,NY                                                                                                                           ,QUEENS,1040,46 RD               
+2014.09.15,7:05,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.09.14,3:30,NY                                                                                                                           ,MANHATTAN,445,W 56 ST             
+2014.09.04,10:30,NY                                                                                                                           ,MANHATTAN,300,W 44 ST             
+2014.09.14,7:15,NY                                                                                                                           ,MANHATTAN,1335,6 AVE               
+2014.09.15,5:15,NY                                                                                                                           ,MANHATTAN,80,N MOORE ST          
+2014.09.05,4:15,NY                                                                                                                           ,MANHATTAN,136,W 42 ST             
+2014.09.04,7:00,NY                                                                                                                           ,MANHATTAN,20,RIVER TERRACE       
+2014.09.12,4:00,NY                                                                                                                           ,MANHATTAN,131,W 14 ST             
+2014.09.19,3:30,NY                                                                                                                           ,MANHATTAN,400,W 45 ST             
+2014.09.14,8:15,NY                                                                                                                           ,MANHATTAN,375,SOUTH END AVE       
+2014.09.14,6:00,NY                                                                                                                           ,MANHATTAN,100,JOHN ST             
+2014.09.15,9:15,NY                                                                                                                           ,MANHATTAN,333,E 30 ST             
+2014.09.13,5:13,NY                                                                                                                           ,QUEENS,3075,46 ST               
+2014.09.18,6:30,NY                                                                                                                           ,MANHATTAN,9,CROSBY ST           
+2014.09.08,5:15,NY                                                                                                                           ,MANHATTAN,41,RIVER TERRACE       
+2014.09.18,9:30,NY                                                                                                                           ,QUEENS,6864,YELLOWSTONE BLVD    
+2014.09.15,6:15,NY                                                                                                                           ,MANHATTAN,333,E 30 ST             
+2014.09.20,5:00,NY                                                                                                                           ,MANHATTAN,375,SOUTH END AVE       
+2014.09.10,6:15,NY                                                                                                                           ,MANHATTAN,224,1 AVE               
+2014.09.16,5:45,NY                                                                                                                           ,MANHATTAN,45,WALL ST             
+2014.09.16,4:00,NY                                                                                                                           ,MANHATTAN,233,BROADWAY            
+2014.09.20,6:15,NY                                                                                                                           ,MANHATTAN,140,NASSAU ST           
+2014.09.25,4:15,NY                                                                                                                           ,MANHATTAN,235,E 40 ST             
+2014.09.18,4:15,NY                                                                                                                           ,MANHATTAN,200,MOTT ST             
+2014.09.21,6:45,NY                                                                                                                           ,MANHATTAN,440,E 20 ST             
+2014.09.21,5:00,NY                                                                                                                           ,MANHATTAN,15,W 11 ST             
+2014.09.21,11:30,NY                                                                                                                           ,MANHATTAN,131,MOTT ST             
+2014.09.19,6:30,NY                                                                                                                           ,MANHATTAN,105,DUANE ST            
+2014.09.23,5:00,NY                                                                                                                           ,MANHATTAN,265,LAFAYETTE ST        
+2014.09.27,5:30,NY                                                                                                                           ,MANHATTAN,300,E 4 ST              
+2014.09.12,5:30,NY                                                                                                                           ,MANHATTAN,2,WATER ST            
+2014.09.28,5:45,NY                                                                                                                           ,MANHATTAN,88,CENTRAL PARK WEST   
+2014.09.28,3:30,NY                                                                                                                           ,MANHATTAN,18,9 AVE               
+2014.09.24,4:15,NY                                                                                                                           ,MANHATTAN,3,E 9 ST              
+2014.09.18,5:30,NY                                                                                                                           ,MANHATTAN,475,W BROADWAY          
+2014.09.19,8:00,NY                                                                                                                           ,MANHATTAN,29,WASHINGTON SQ W     
+2014.09.20,8:45,NY                                                                                                                           ,MANHATTAN,400,E 90 ST             
+2014.09.21,8:29,JFK AIR INDIA Pickup Area C                                                                                                  ,,      ,                    
+2014.09.22,5:30,NY                                                                                                                           ,MANHATTAN,2,PETER COOPER RD     
+2014.09.25,7:30,NY                                                                                                                           ,MANHATTAN,180,W 20 ST             
+2014.09.22,6:45,NY                                                                                                                           ,MANHATTAN,229,CHRYSTIE ST         
+2014.09.13,4:45,NY                                                                                                                           ,MANHATTAN,102,FULTON ST           
+2014.09.17,4:00,NY                                                                                                                           ,MANHATTAN,56,E 13 ST             
+2014.09.26,4:15,NY                                                                                                                           ,MANHATTAN,385,1 AVE               
+2014.09.29,5:00,NY                                                                                                                           ,MANHATTAN,360,1 AVE               
+2014.09.20,4:00,NY                                                                                                                           ,MANHATTAN,401,7 AVE               
+2014.09.24,8:33,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.09.30,5:30,NY                                                                                                                           ,MANHATTAN,395,BROADWAY            
+2014.09.19,5:00,NY                                                                                                                           ,MANHATTAN,141,SULLIVAN ST         
+2014.09.26,6:45,NY                                                                                                                           ,MANHATTAN,20,SUTTON PL S         
+2014.09.24,7:45,NY                                                                                                                           ,QUEENS,2830,34 ST               
+2014.09.26,5:30,NY                                                                                                                           ,MANHATTAN,50,PRINCE ST           
+2014.09.24,5:45,NY                                                                                                                           ,MANHATTAN,17,JOHN ST             
+2014.09.26,7:45,NY                                                                                                                           ,MANHATTAN,107,ST MARKS PL         
+2014.09.27,7:15,JFK DELTA TERM 4  P/U AREA C                                                                                                 ,,      ,                    
+2014.09.06,7:30,NY                                                                                                                           ,MANHATTAN,205,3 AVE               
+2014.09.28,12:00,NY                                                                                                                           ,MANHATTAN,175,W 12 ST             
+2014.09.28,10:00,NY                                                                                                                           ,MANHATTAN,98,THOMPSON ST         
+2014.09.17,6:30,NY                                                                                                                           ,MANHATTAN,188,DUANE ST            
+2014.09.30,6:30,NY                                                                                                                           ,MANHATTAN,333,E 53 ST             
+2014.09.30,7:45,NY                                                                                                                           ,MANHATTAN,155,E 31 ST             
+2014.09.30,4:00,NY                                                                                                                           ,MANHATTAN,360,W 34 ST             
+2014.09.22,4:45,NY                                                                                                                           ,MANHATTAN,370,CANAL ST            
+2014.09.22,3:45,NY                                                                                                                           ,MANHATTAN,33,W 67 ST             
+2014.09.23,6:30,NY                                                                                                                           ,MANHATTAN,511,E 20 ST             
+2014.09.28,8:00,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.09.29,4:00,NY                                                                                                                           ,MANHATTAN,124,E 24 ST             
+2014.09.25,5:30,NY                                                                                                                           ,MANHATTAN                               ,360,W 28 ST             
+2014.09.29,5:45,NY                                                                                                                           ,MANHATTAN,172,DELANCEY ST         
+2014.08.07,10:30,NY                                                                                                                           ,MANHATTAN,305,E 40 ST             
+2014.07.03,13:00,NY                                                                                                                           ,MANHATTAN,322,W 57 ST             
+2014.07.03,12:45,NY                                                                                                                           ,MANHATTAN,338,W 49 ST             
+2014.07.15,11:19,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,,      ,                    
+2014.07.03,13:59,JFK American Domestic Pickup Area C                                                                                          ,JFK,      ,                    
+2014.07.02,15:15,NY                                                                                                                           ,MANHATTAN,60,E  8 ST             
+2014.07.08,12:00,NY                                                                                                                           ,MANHATTAN,50,ROCKEFELLER PLAZA   
+2014.07.08,13:00,NY                                                                                                                           ,MANHATTAN,11,E 29 ST             
+2014.07.09,8:15,NY                                                                                                                           ,MANHATTAN,240,E 27 ST             
+2014.07.01,7:30,NY                                                                                                                           ,EAST NORWICH,101,YORKSHIRE DR        
+2014.07.07,15:41,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.07.12,7:00,NY                                                                                                                           ,EAST ROCKAWAY,77,DENTON AVE          
+2014.07.10,8:30,NY                                                                                                                           ,MANHATTAN,255,W 94 ST             
+2014.07.10,6:15,NY                                                                                                                           ,LONG BEACH,136,E OLIVE ST          
+2014.07.25,11:59,EWR UNITED PICK-UP AREA 3                                                                                                    ,EWR,      ,                    
+2014.07.01,17:30,NY                                                                                                                           ,MANHATTAN,415,MADISON AVE         
+2014.07.07,17:15,NY                                                                                                                           ,MANHATTAN,352,W 15 ST             
+2014.07.04,8:45,NY                                                                                                                           ,MANHATTAN,566,HUDSON ST           
+2014.07.03,10:00,NY                                                                                                                           ,MANHATTAN,95,CHRISTOPHER ST      
+2014.07.03,15:00,NY                                                                                                                           ,MANHATTAN,59,W 35 ST             
+2014.07.06,9:30,NJ                                                                                                                           ,LOVELADIES,38,LONG BEACH BLVD     
+2014.07.23,6:00,NY                                                                                                                           ,NEW HYDE PARK,534,SPERRY BLVD         
+2014.07.04,7:00,NY                                                                                                                           ,MANHATTAN,310,LEXINGTON AVE       
+2014.07.11,16:00,NY                                                                                                                           ,MANHATTAN,605,E 14 ST             
+2014.07.08,9:00,NY                                                                                                                           ,MANHATTAN,60,W 23 ST             
+2014.07.08,9:55,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,,      ,                    
+2014.07.07,6:30,NY                                                                                                                           ,ISLAND PARK,127,RADCLIFFE RD        
+2014.07.07,9:45,NY                                                                                                                           ,INWOOD,34,AVENUE A            
+2014.07.04,9:45,NY                                                                                                                           ,MANHATTAN,912,5 Ave               
+2014.07.16,8:15,NY                                                                                                                           ,MANHATTAN,60,RIVERSIDE DR        
+2014.07.02,6:45,NY                                                                                                                           ,MANHASSET,5,EVERGREEN CIR       
+2014.07.09,11:00,NY                                                                                                                           ,MANHATTAN,340,E 13 ST             
+2014.07.12,8:45,NY                                                                                                                           ,MANHATTAN,334,E 78 ST             
+2014.08.27,9:45,NY                                                                                                                           ,MANHATTAN,400,E 89 ST             
+2014.07.02,7:45,NY                                                                                                                           ,MANHATTAN,249,E 48 ST             
+2014.07.13,14:30,NY                                                                                                                           ,MANHATTAN,30,E 9 ST              
+2014.07.18,9:00,NY                                                                                                                           ,MANHATTAN                               ,101,W 15 ST             
+2014.07.18,10:39,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.07.09,17:00,CT                                                                                                                           ,Fairfield,230,Grandview Road      
+2014.07.17,17:15,NY                                                                                                                           ,MANHATTAN,462,1 AVE               
+2014.07.10,11:45,NY                                                                                                                           ,MANHATTAN,550,Madison Ave         
+2014.07.08,6:15,NY                                                                                                                           ,MOHEGAN LAKE,3255,MOHEGAN AVE         
+2014.07.17,12:00,NY                                                                                                                           ,STANFORDVILLE,144,BANGALL AMENIA RD   
+2014.07.04,13:00,NY                                                                                                                           ,MANHATTAN,505,LA GUARDIA PL       
+2014.07.10,10:45,NY                                                                                                                           ,MANHATTAN,455,E 51 ST             
+2014.07.11,7:00,NY                                                                                                                           ,LOCUST VALLEY,40,13TH ST             
+2014.07.14,14:45,NY                                                                                                                           ,RYE,12,LARKSPUR LN         
+2014.07.01,11:15,NY                                                                                                                           ,MANHATTAN,286,MADISON AVE         
+2014.07.14,5:30,NY                                                                                                                           ,EAST MEADOW,2515,LANCASTER ST        
+2014.07.17,9:00,NY                                                                                                                           ,MANHATTAN,125,W 55 ST             
+2014.07.06,5:30,NY                                                                                                                           ,MANHATTAN,151,W 54 ST             
+2014.07.04,5:48,NY                                                                                                                           ,MANHATTAN,1,IRVING PL           
+2014.07.02,14:00,NY                                                                                                                           ,MANHATTAN,315,E 86 ST             
+2014.07.03,5:15,NY                                                                                                                           ,MANHATTAN,63,E 9 ST              
+2014.07.08,15:01,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.07.08,16:30,NY                                                                                                                           ,MANHATTAN,303,E 57 ST             
+2014.07.09,6:15,NY                                                                                                                           ,EAST ROCKAWAY,3,WELLFLEET RD        
+2014.07.15,16:00,NY                                                                                                                           ,MANHATTAN,75,BROAD ST            
+2014.07.22,17:00,NY                                                                                                                           ,JERICHO,4,HUNT DR             
+2014.07.23,11:00,NY                                                                                                                           ,MANHATTAN,323,W 83 ST             
+2014.07.11,9:30,NY                                                                                                                           ,MANHATTAN,100,E 77 ST             
+2014.07.11,13:00,NY                                                                                                                           ,MANHATTAN,1693,LEXINGTON AVE       
+2014.07.22,7:00,NY                                                                                                                           ,JERICHO,56,SULLIVAN DR         
+2014.07.16,6:30,NY                                                                                                                           ,GLEN HEAD,23,POUND HOLLOW RD     
+2014.07.23,7:15,NY                                                                                                                           ,MANHATTAN,55,MORTON ST           
+2014.07.07,13:00,NY                                                                                                                           ,MANHATTAN,401,W 56 ST             
+2014.07.13,7:30,NY                                                                                                                           ,MANHATTAN,95,E 10 ST             
+2014.07.18,6:45,NY                                                                                                                           ,LAWRENCE,9,IVY LANE            
+2014.07.13,9:45,JFK UNITED DOMESTIC Pickup Area A                                                                                            ,,      ,                    
+2014.07.13,12:45,NY                                                                                                                           ,MANHATTAN,283,AVENUE C            
+2014.07.14,7:00,NY                                                                                                                           ,MANHATTAN,1641,3 AVE               
+2014.07.23,19:15,NY                                                                                                                           ,MANHATTAN,54,W 31 ST             
+2014.07.14,12:01,LGA AMERICAN Pick-up Island                                                                                                  ,LGA,      ,                    
+2014.07.14,9:30,NY                                                                                                                           ,MANHATTAN,152,W 26 ST             
+2014.08.08,12:15,NY                                                                                                                           ,MANHATTAN,12,E 49 ST             
+2014.07.09,13:02,LGA American Pick-up Island                                                                                                  ,LGA,      ,                    
+2014.07.15,8:15,NY                                                                                                                           ,MANHATTAN,866,3 AVE               
+2014.07.15,14:00,NY                                                                                                                           ,MANHATTAN,150,E 44 ST             
+2014.07.22,12:28,NY                                                                                                                           ,MANHATTAN,160,E 53 ST             
+2014.08.09,17:00,NY                                                                                                                           ,MANHATTAN,215,E 80 ST             
+2014.07.03,18:15,NY                                                                                                                           ,MANHATTAN,754,5 AVE               
+2014.07.18,12:00,NY                                                                                                                           ,MANHATTAN,601,W 57 ST             
+2014.07.13,5:30,NY                                                                                                                           ,MANHATTAN,123,E 15 ST             
+2014.07.13,17:00,NY                                                                                                                           ,LYNBROOK,27,NEW ST              
+2014.07.23,17:00,NY                                                                                                                           ,HICKSVILLE,81,CORNELL LN          
+2014.07.19,17:20,NY                                                                                                                           ,Manhattan                               ,333,E 55 ST             
+2014.07.24,14:45,NY                                                                                                                           ,MANHATTAN,270,PARK AVE            
+2014.07.26,16:15,NY                                                                                                                           ,MANHATTAN,305,E 40 ST             
+2014.07.26,14:11,NY                                                                                                                           ,MANHATTAN,132,E 35 ST             
+2014.07.21,6:00,NY                                                                                                                           ,GLEN HEAD,30,OLD WHEATLEY RD     
+2014.07.21,7:45,NY                                                                                                                           ,MANHATTAN,230,E 30 ST             
+2014.07.19,9:30,NY                                                                                                                           ,MANHATTAN,848,WASHINGTON ST       
+2014.07.19,5:30,NY                                                                                                                           ,WANTAGH,3712,BERNARD DR          
+2014.07.28,5:30,NY                                                                                                                           ,HUNTINGTON,14,CHESTER CT          
+2014.07.14,8:30,NY                                                                                                                           ,MANHATTAN,2,PETER COOPER RD     
+2014.07.18,14:01,JFK AER LINGUS Pickup Area 3                                                                                                 ,JFK,      ,                    
+2014.07.17,15:43,JFK LUFTHANSA Outside at the curb                                                                                            ,,      ,                    
+2014.07.24,13:23,JFK CATHAY PACIFIC Pickup Area A                                                                                             ,,      ,                    
+2014.07.24,9:00,NY                                                                                                                           ,MANHATTAN,25,TUDOR CITY PL       
+2014.07.24,6:45,NY                                                                                                                           ,ROSLYN,11,CRABTREE LN         
+2014.07.15,11:00,NY                                                                                                                           ,MANHATTAN,530,E 76 St             
+2014.07.24,16:30,NY                                                                                                                           ,MANHATTAN,330,W 45 ST             
+2014.07.23,18:30,NY                                                                                                                           ,MANHATTAN,624,W 52 ST             
+2014.07.25,15:00,NJ                                                                                                                           ,FLORHAM PARK,175,PARK AVE            
+2014.07.25,8:45,NY                                                                                                                           ,MANHATTAN,250,E 54 ST             
+2014.07.17,14:00,NY                                                                                                                           ,MANHATTAN,215,PARK AVE S          
+2014.07.24,11:30,NY                                                                                                                           ,MANHATTAN,837,2 Ave               
+2014.07.30,8:00,NY                                                                                                                           ,MANHASSET,5,EVERGREEN CIR       
+2014.08.03,7:30,NY                                                                                                                           ,MANHASSET,171,Village Road        
+2014.08.03,11:00,NY                                                                                                                           ,JERICHO,2,FLOWER LN           
+2014.07.17,7:00,NY                                                                                                                           ,WEST HEMPSTEAD,341,HEMPSTEAD GARDENS DR
+2014.07.22,10:00,NY                                                                                                                           ,MANHATTAN,234,E 83 ST             
+2014.07.15,6:45,NY                                                                                                                           ,WESTBURY,1,BRUSH HOLLOW RD     
+2014.07.03,7:30,NY                                                                                                                           ,MANHATTAN,27,E 65 ST             
+2014.07.29,15:00,NY                                                                                                                           ,GLENWOOD LANDING,500,SHORE RD            
+2014.07.29,5:59,NY                                                                                                                           ,OLD WESTBURY,6,PADDOCK CT          
+2014.08.07,9:30,NY                                                                                                                           ,MANHATTAN,444,E 82 ST             
+2014.07.30,10:15,NY                                                                                                                           ,MANHATTAN,249,E 48 ST             
+2014.07.30,11:15,NY                                                                                                                           ,MANHATTAN,1613,2 AVE               
+2014.07.31,14:46,JFK BRITISH AIRWAYS Pickup Area A                                                                                            ,,      ,                    
+2014.08.01,10:45,NY                                                                                                                           ,MANHATTAN,240,E 39 ST             
+2014.07.21,11:30,NY                                                                                                                           ,CEDARHURST,232,CEDARHURST AVE      
+2014.07.26,5:30,NY                                                                                                                           ,MANHATTAN,123,LUDLOW ST           
+2014.07.11,14:13,NY                                                                                                                           ,MANHATTAN,18,E 23 ST             
+2014.07.19,6:51,JFK DELTA PASSENGER AREA C                                                                                                   ,,      ,                    
+2014.07.19,12:45,NY                                                                                                                           ,PLAINVIEW,1575,ROUND SWAMP RD      
+2014.07.31,7:15,NY                                                                                                                           ,MANHATTAN,450,W 17 ST             
+2014.07.16,16:30,NY                                                                                                                           ,MANHATTAN,2,PARK AVE            
+2014.08.07,7:00,NY                                                                                                                           ,MANHATTAN,120,W 72 ST             
+2014.07.25,11:00,NY                                                                                                                           ,MANHATTAN,145,E 39 ST             
+2014.07.26,13:23,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.08.02,13:52,EWR VIRGIN ATLANTIC AREA 4/LOWER LEVEL                                                                                       ,,      ,                    
+2014.07.28,7:30,NY                                                                                                                           ,MANHATTAN,1567,BROADWAY            
+2014.08.01,12:30,NY                                                                                                                           ,MANHATTAN,215,LEXINGTON AVE       
+2014.07.30,14:45,NY                                                                                                                           ,MANHATTAN,9,E 40 ST             
+2014.07.30,17:15,LGA UNITED Pick-up Island                                                                                                    ,,      ,                    
+2014.08.01,16:30,NY                                                                                                                           ,MANHATTAN,1370,BROADWAY            
+2014.07.31,11:00,NY                                                                                                                           ,MANHATTAN,45,E 45 ST             
+2014.07.29,17:45,NY                                                                                                                           ,MANHATTAN,11,E 88 ST             
+2014.07.28,8:21,EWR UNITED TERM C  AREA 3                                                                                                    ,EWR,      ,                    
+2014.07.28,14:47,NY                                                                                                                           ,MANHATTAN,590,5 AVE               
+2014.07.25,7:00,NY                                                                                                                           ,Valley Stream,23,CLEVELAND ST        
+2014.07.26,7:30,NY                                                                                                                           ,MANHATTAN,50,E 89 ST             
+2014.07.25,17:00,NY                                                                                                                           ,MANHATTAN,510,W 52 ST             
+2014.08.01,12:00,NY                                                                                                                           ,MANHATTAN,225,E 57 ST             
+2014.07.30,18:30,NY                                                                                                                           ,MANHATTAN,1407,BROADWAY            
+2014.08.02,7:30,NY                                                                                                                           ,MANHATTAN,245,E 63 ST             
+2014.08.02,11:00,NY                                                                                                                           ,MANHATTAN,201,E 36 ST             
+2014.07.21,18:45,NY                                                                                                                           ,MANHATTAN,151,E 58 ST             
+2014.07.21,17:30,NY                                                                                                                           ,MANHATTAN,500,5 AVE               
+2014.07.28,10:01,JFK US AIR Pickup Area A                                                                                                     ,,      ,                    
+2014.07.31,13:30,NY                                                                                                                           ,MANHATTAN,301,W 45 ST             
+2014.07.29,8:15,NY                                                                                                                           ,MANHATTAN,245,E 40 ST             
+2014.07.31,5:45,NY                                                                                                                           ,MANHATTAN,232,MULBERRY ST         
+2014.08.01,13:09,LGA DELTA MIDDLE ISLAND                                                                                                      ,,      ,                    
+2014.08.12,16:30,NY                                                                                                                           ,Mineola,28,Weybridge Rd        
+2014.08.05,14:00,NY                                                                                                                           ,MANHATTAN,11,E 44 ST             
+2014.08.05,12:32,LGA JETBLUE Pick-up Island                                                                                                   ,,      ,                    
+2014.08.11,18:00,NY                                                                                                                           ,MANHATTAN,1515,BROADWAY            
+2014.07.26,12:30,NY                                                                                                                           ,MANHATTAN,1275,YORK AVE            
+2014.07.26,10:40,NY                                                                                                                           ,Manhattan                               ,350,W 42 ST             
+2014.08.04,5:15,NY                                                                                                                           ,MANHATTAN,101,THOMPSON ST         
+2014.08.04,7:00,NJ                                                                                                                           ,JERSEY CITY,232,PAVONIA AVE         
+2014.08.07,14:30,NY                                                                                                                           ,MANHATTAN,425,5 AVE               
+2014.08.07,12:33,EWR UNITED DOOR 2                                                                                                            ,EWR,      ,                    
+2014.08.13,12:00,NY                                                                                                                           ,MANHATTAN,600,3 AVE               
+2014.08.06,10:00,NY                                                                                                                           ,MANHATTAN,811,7 AVE               
+2014.08.13,5:45,NY                                                                                                                           ,LEVITTOWN,56,WOODPECKER LN       
+2014.08.15,16:30,NY                                                                                                                           ,MANHATTAN,461,PARK AVE S          
+2014.08.06,12:30,NY                                                                                                                           ,MANHATTAN,25,W 36 ST             
+2014.08.01,14:15,NY                                                                                                                           ,MANHATTAN,948,BROADWAY            
+2014.08.04,8:00,NY                                                                                                                           ,MANHATTAN,430,W 54 ST             
+2014.08.11,12:00,NY                                                                                                                           ,MANHATTAN,685,3 AVE               
+2014.08.15,8:00,NY                                                                                                                           ,MERRICK,41,HANOVER PL          
+2014.08.05,10:00,NY                                                                                                                           ,SEA CLIFF,216,LITTLEWORTH LN      
+2014.08.13,17:00,NY                                                                                                                           ,MANHATTAN,305,E 40 ST             
+2014.08.11,6:30,NY                                                                                                                           ,VALLEY STREAM,1897,EVERETT ST          
+2014.08.05,12:12,NY                                                                                                                           ,MANHATTAN,700,8 AVE               
+2014.08.05,7:00,NY                                                                                                                           ,SYOSSET,1596,LAUREL HOLLOW RD    
+2014.08.13,9:15,NY                                                                                                                           ,MANHATTAN,119,W 28 ST             
+2014.08.01,15:23,EWR LUFTHANSA AREA 4/LOWER LEVEL                                                                                             ,EWR,      ,                    
+2014.08.06,7:15,NY                                                                                                                           ,Hewlett,395,Chestnut Drive      
+2014.08.14,9:00,NY                                                                                                                           ,MANHATTAN,210,E 36 ST             
+2014.08.19,7:30,NY                                                                                                                           ,MERRICK,2821,COVERED BRIDGE RD   
+2014.08.08,7:30,NY                                                                                                                           ,MANHASSET,5,EVERGREEN CIR       
+2014.08.08,9:30,NY                                                                                                                           ,MANHATTAN,330,E 56 ST             
+2014.08.24,5:30,NY                                                                                                                           ,MANHATTAN,240,CENTRAL PARK SOUTH  
+2014.08.22,11:35,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.11,9:00,NY                                                                                                                           ,MANHATTAN,5,W 86 ST             
+2014.08.09,10:30,NY                                                                                                                           ,GREAT RIVER,22,PROVOST LN          
+2014.08.11,7:45,NY                                                                                                                           ,MANHATTAN,308,W 58 ST             
+2014.08.13,7:30,NY                                                                                                                           ,Garden City,76,Mulberry Ave        
+2014.08.02,5:45,NY                                                                                                                           ,MANHATTAN,440,E 13 St             
+2014.08.16,12:55,EWR United PICK-UP AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.16,5:30,NY                                                                                                                           ,MANHATTAN,170,SPRING ST           
+2014.07.28,12:32,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.08.08,5:45,NY                                                                                                                           ,JERICHO,120,JERICHO TPKE        
+2014.08.21,10:15,NY                                                                                                                           ,MANHATTAN,60,SUTTON PL S         
+2014.08.09,5:30,NY                                                                                                                           ,MANHATTAN,534,W 42 ST             
+2014.08.16,14:25,EWR UNITED PICK-UP AREA 3                                                                                                    ,Ewr,      ,                    
+2014.08.14,15:45,NY                                                                                                                           ,FREEPORT,5,BROADWAY            
+2014.08.19,18:30,NY                                                                                                                           ,MANHATTAN,400,E 55 St             
+2014.08.07,17:15,NY                                                                                                                           ,MANHATTAN,222,E 34 ST             
+2014.08.11,9:40,LGA DELTA MIDDLE ISLAND                                                                                                      ,,      ,                    
+2014.08.13,14:39,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.01,7:15,NY                                                                                                                           ,ISLAND PARK,89,MADISON AVE         
+2014.08.13,16:45,NY                                                                                                                           ,MANHATTAN,60,E 42 ST             
+2014.08.18,16:45,NY                                                                                                                           ,MANHATTAN,381,PARK AVE S          
+2014.08.18,15:39,LGA AMERICAN Pick-up Island                                                                                                  ,,      ,                    
+2014.08.05,5:45,NY                                                                                                                           ,MANHATTAN,182,HESTER ST           
+2014.08.05,17:00,NY                                                                                                                           ,MANHATTAN,222,E 19 ST             
+2014.08.09,12:00,NY                                                                                                                           ,MANHATTAN,224,W 49 ST             
+2014.08.14,5:30,NY                                                                                                                           ,WANTAGH,1076,Seamans Neck Road   
+2014.08.12,7:30,NY                                                                                                                           ,MANHATTAN,8,E 83 ST             
+2014.08.18,13:30,NY                                                                                                                           ,MANHATTAN,345,E 52 ST             
+2014.08.15,14:00,NY                                                                                                                           ,NEW HYDE PARK,1113,CEDAR DR W          
+2014.08.04,16:00,NY                                                                                                                           ,MANHATTAN,390,PARK AVE            
+2014.08.04,11:45,EWR PORTER AIRLINE AREA4/LOWER LEVEL                                                                                         ,,      ,                    
+2014.08.07,16:07,LGA FRONTIER AIRLINES PICK-UP ISLAND                                                                                         ,,      ,                    
+2014.08.26,6:00,NY                                                                                                                           ,Amityville,22,DANTE PL            
+2014.08.22,8:00,NY                                                                                                                           ,MANHATTAN,194,E 2 ST              
+2014.07.31,16:00,NY                                                                                                                           ,MANHATTAN,65,COOPER SQ           
+2014.08.08,12:59,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.08.14,6:45,NY                                                                                                                           ,LAWRENCE,9,IVY LANE            
+2014.08.14,17:00,NY                                                                                                                           ,MANHATTAN,420,E 61 ST             
+2014.08.20,8:13,NY                                                                                                                           ,MANHATTAN,118,E 60 ST             
+2014.08.14,8:15,NY                                                                                                                           ,MANHATTAN,20,WATERSIDE PLAZA     
+2014.08.20,5:45,NY                                                                                                                           ,MANHATTAN,67,E 3 ST              
+2014.08.19,14:00,NY                                                                                                                           ,MANHATTAN,250,E 30 ST             
+2014.08.27,6:58,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.08.11,16:00,NY                                                                                                                           ,GREAT NECK,135,WOOLEYS LN          
+2014.08.11,12:12,NY                                                                                                                           ,MANHATTAN,300,E 66 ST             
+2014.08.29,7:45,NY                                                                                                                           ,LONG BEACH,630,SHORE ROAD          
+2014.08.23,9:00,NY                                                                                                                           ,MANHATTAN,310,E 55 ST             
+2014.08.22,14:27,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,LGA,      ,                    
+2014.08.18,8:45,NY                                                                                                                           ,Williston Park,56,Capitol Avenue      
+2014.08.18,6:00,NY                                                                                                                           ,Cold Spring Harbor,27,turkey lane         
+2014.08.21,18:00,NY                                                                                                                           ,MANHATTAN,311,W 39 ST             
+2014.08.24,15:00,NY                                                                                                                           ,MANHATTAN,2,COOPER SQ           
+2014.07.31,9:30,NY                                                                                                                           ,MANHATTAN,790,7 AVE               
+2014.08.07,5:30,NY                                                                                                                           ,MANHATTAN,151,W 54 ST             
+2014.08.12,5:45,NY                                                                                                                           ,MANHATTAN,340,E 64 ST             
+2014.08.17,7:45,NY                                                                                                                           ,MANHATTAN,164,E 87 ST             
+2014.08.18,11:30,NY                                                                                                                           ,EAST MEADOW,480,COAKLEY ST          
+2014.08.17,5:30,NY                                                                                                                           ,MANHATTAN,425,E 51 ST             
+2014.08.17,10:15,NY                                                                                                                           ,MANHATTAN,240,E 39 ST             
+2014.08.22,10:15,NY                                                                                                                           ,MANHATTAN,320,PARK AVE            
+2014.08.22,17:00,NY                                                                                                                           ,MANHATTAN,185,MADISON AVE         
+2014.08.09,7:00,NY                                                                                                                           ,MANHATTAN,235,E 49 ST             
+2014.08.26,8:30,NY                                                                                                                           ,MANHATTAN,400,E 56 ST             
+2014.08.13,15:00,NY                                                                                                                           ,HAUPPAUGE,350,MOTOR PKWY          
+2014.08.19,12:30,NY                                                                                                                           ,MANHATTAN,90,PARK AVE            
+2014.08.21,14:15,NY                                                                                                                           ,LAWRENCE,9,REGENT DR           
+2014.08.21,7:15,NY                                                                                                                           ,MANHATTAN,211,E 70 ST             
+2014.08.06,17:00,NY                                                                                                                           ,MANHATTAN,533,7 AVE               
+2014.08.27,5:45,NY                                                                                                                           ,MANHATTAN,405,E 73 ST             
+2014.08.27,14:03,JFK SWISS Pickup Area C                                                                                                      ,,      ,                    
+2014.08.20,13:45,NY                                                                                                                           ,LAWRENCE,576,ATLANTIC AVE        
+2014.08.16,7:15,NY                                                                                                                           ,MANHATTAN,300,E 54 ST             
+2014.08.16,16:00,NY                                                                                                                           ,MANHATTAN,45,W 57 ST             
+2014.08.28,6:30,NY                                                                                                                           ,DEER PARK,134,W 3RD ST            
+2014.09.04,9:45,NY                                                                                                                           ,MANHATTAN,206,E 52 ST             
+2014.08.23,10:27,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.08.26,15:30,NY                                                                                                                           ,MANHATTAN,58,E 91 ST             
+2014.07.18,15:45,NY                                                                                                                           ,MANHATTAN,350,W 42 ST             
+2014.07.19,6:00,NY                                                                                                                           ,BELLMORE,2511,OCEAN AVE           
+2014.08.02,16:30,NY                                                                                                                           ,MANHATTAN,555,W 23 ST             
+2014.08.04,14:20,EWR BRITISH AIRWAYS AREA 4/LOWER LEVEL                                                                                       ,EWR,      ,                    
+2014.08.30,8:30,NY                                                                                                                           ,MANHATTAN,225,E 66 ST             
+2014.08.29,15:15,NY                                                                                                                           ,MANHATTAN,1060,5 AVE               
+2014.08.22,6:00,NY                                                                                                                           ,UNIONDALE,101,JAMES DOOLITTLE BLVD
+2014.08.20,9:06,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,,      ,                    
+2014.09.04,11:25,EWR PORTER AIRLINE AREA4/LOWER LEVEL                                                                                         ,,      ,                    
+2014.09.04,13:00,NY                                                                                                                           ,MANHATTAN,28,E 28 ST             
+2014.08.21,5:00,NY                                                                                                                           ,MANHATTAN,425,E 51 ST             
+2014.08.30,12:30,NY                                                                                                                           ,MANHATTAN,100,E 50 ST             
+2014.09.06,5:30,NY                                                                                                                           ,MANHATTAN,454,W 54 ST             
+2014.08.16,12:00,NY                                                                                                                           ,MANHATTAN,138,E 36 ST             
+2014.08.27,16:30,NY                                                                                                                           ,MANHATTAN,401,E 80 ST             
+2014.09.05,7:15,NY                                                                                                                           ,LONG BEACH,146,MITCHELL AVE        
+2014.08.26,10:45,NY                                                                                                                           ,MANHATTAN,301,PARK AVE            
+2014.09.09,8:30,NY                                                                                                                           ,MANHATTAN,50,E 78 ST             
+2014.08.24,11:30,NY                                                                                                                           ,WESTBURY,72,WALSH LN            
+2014.09.06,15:45,NY                                                                                                                           ,MANHATTAN,405,E 56 ST             
+2014.09.15,12:54,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.09.02,14:00,NY                                                                                                                           ,MANHATTAN,141,BARROW ST           
+2014.08.20,7:45,NY                                                                                                                           ,MANHATTAN,450,E 83 ST             
+2014.08.25,7:00,NY                                                                                                                           ,MERRICK,163,FRANKEL BLVD        
+2014.08.25,9:45,NY                                                                                                                           ,MANHATTAN,2,E 61 ST             
+2014.08.25,14:00,NY                                                                                                                           ,JERICHO,3,CRAIG ST            
+2014.09.02,10:00,NY                                                                                                                           ,GREENVALE,15,MARION ST           
+2014.08.22,14:00,NY                                                                                                                           ,QUEENS,2106,35 ST               
+2014.09.04,16:30,NY                                                                                                                           ,MANHATTAN,625,MADISON AVE         
+2014.09.09,11:15,NJ                                                                                                                           ,JERSEY CITY,2,EXCHANGE PL         
+2014.08.20,18:00,NY                                                                                                                           ,MANHATTAN,300,MADISON AVE         
+2014.09.03,16:00,NY                                                                                                                           ,MANHATTAN,226,E 70 ST             
+2014.08.21,11:08,NY                                                                                                                           ,MANHATTAN,422,E 72 ST             
+2014.08.23,6:45,NY                                                                                                                           ,West Hempstead,24,RHODA ST            
+2014.08.29,13:00,NY                                                                                                                           ,MANHATTAN,405,PARK AVE            
+2014.09.01,15:30,NY                                                                                                                           ,Syosset,20,COVES RUN           
+2014.09.10,10:45,NY                                                                                                                           ,MANHATTAN,137,E 38 ST             
+2014.09.11,8:00,NY                                                                                                                           ,MANHATTAN,205,E 77 ST             
+2014.09.13,14:08,NY                                                                                                                           ,MANHATTAN,12,E 86 ST             
+2014.09.09,5:30,NY                                                                                                                           ,MANHATTAN,300,E 34 ST             
+2014.09.08,16:30,NY                                                                                                                           ,MANHATTAN,605,3 AVE               
+2014.09.10,11:45,NY                                                                                                                           ,MANHATTAN,300,E 33 ST             
+2014.09.03,12:30,NY                                                                                                                           ,MANHATTAN,535,E 14 ST             
+2014.09.04,5:45,NY                                                                                                                           ,MANHATTAN,180,EAST END AVE        
+2014.09.25,7:00,NY                                                                                                                           ,LYNBROOK,56,CHERRY LN           
+2014.09.06,8:45,NY                                                                                                                           ,MANHATTAN,222,E 21 ST             
+2014.09.11,16:00,NY                                                                                                                           ,MANHATTAN,3,TIMES SQ            
+2014.09.06,13:00,NY                                                                                                                           ,MANHATTAN,880,5 AVE               
+2014.08.29,10:15,NY                                                                                                                           ,LONG BEACH,545,W PARK AVE          
+2014.09.03,9:00,NY                                                                                                                           ,MANHATTAN,240,E 76 ST             
+2014.09.08,6:10,NY                                                                                                                           ,EAST HILLS,1,SWAN CT             
+2014.09.11,12:16,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.09.11,6:00,NY                                                                                                                           ,OLD WESTBURY,21,FOX HOLLOW LN       
+2014.09.08,10:00,NY                                                                                                                           ,MANHATTAN,333,E 14 ST             
+2014.08.30,5:45,NY                                                                                                                           ,MANHATTAN,55,W 25 ST             
+2014.09.08,7:22,JFK Virgin America Pickup Area C                                                                                             ,JFK,      ,                    
+2014.09.13,5:45,NY                                                                                                                           ,MANHATTAN,307,E 44 ST             
+2014.09.13,9:00,NY                                                                                                                           ,MANHATTAN,222,E 39 ST             
+2014.09.06,9:23,EWR Air India AREA 4/LOWER LEVEL                                                                                             ,EWR,      ,                    
+2014.09.15,10:45,NY                                                                                                                           ,MANHATTAN,306,W 38 ST             
+2014.09.06,8:00,NY                                                                                                                           ,MANHATTAN,201,E 21 ST             
+2014.09.13,17:00,NY                                                                                                                           ,MANHATTAN,300,E 34 ST             
+2014.09.02,15:26,JFK LUFTHANSA Outside at the curb                                                                                            ,,      ,                    
+2014.08.24,8:30,NY                                                                                                                           ,MANHATTAN,1510,LEXINGTON AVE       
+2014.09.03,13:20,LGA DELTA MIDDLE ISLAND                                                                                                      ,,      ,                    
+2014.09.08,14:52,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,,      ,                    
+2014.09.17,8:00,NY                                                                                                                           ,MANHATTAN,140,WAVERLY PL          
+2014.09.15,16:15,NY                                                                                                                           ,MANHATTAN,1,LEXINGTON AVE       
+2014.09.04,7:45,NY                                                                                                                           ,MANHATTAN,3,E 85 ST             
+2014.09.04,8:45,NY                                                                                                                           ,MANHATTAN,500,E 77 ST             
+2014.09.05,16:30,NY                                                                                                                           ,MANHATTAN,221,E 71 St             
+2014.09.04,14:59,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.09.10,14:45,NY                                                                                                                           ,MANHATTAN,333,E 38 ST             
+2014.09.11,14:15,NY                                                                                                                           ,MANHATTAN,149,E 57 ST             
+2014.09.20,9:53,NY                                                                                                                           ,MANHATTAN,681,12 AVE              
+2014.09.12,15:30,NY                                                                                                                           ,ROCKVILLE CENTRE,110,N CENTRE AVE        
+2014.09.15,5:45,NY                                                                                                                           ,MERRICK,1767,GILDERSLEEVE ST     
+2014.09.10,16:30,NY                                                                                                                           ,MANHATTAN,1025,5 AVE               
+2014.09.20,6:00,NY                                                                                                                           ,MANHATTAN,444,CENTRAL PARK WEST   
+2014.09.09,17:00,NY                                                                                                                           ,MANHATTAN,6,E 1 ST              
+2014.09.19,12:30,NY                                                                                                                           ,LAWRENCE,14,WILLOW WAY          
+2014.09.10,6:15,NY                                                                                                                           ,NORTHPORT,2,YELLOW BRICK RD     
+2014.09.03,6:00,NY                                                                                                                           ,MERRICK,62,CENTRAL PKWY        
+2014.09.21,8:45,NY                                                                                                                           ,Bethpage,62,CHESHIRE RD         
+2014.09.17,6:00,NY                                                                                                                           ,Melville,169,Altessa Blvd.       
+2014.09.16,5:30,NY                                                                                                                           ,OLD WESTBURY,6,ROLLING DR          
+2014.09.22,5:30,NY                                                                                                                           ,MANHATTAN,355,W 51 ST             
+2014.09.16,9:00,NJ                                                                                                                           ,MOUNTAIN LAKES,63,BRIARCLIFF RD       
+2014.09.23,7:00,NY                                                                                                                           ,PLAINVIEW,200,MAIN PKWY W         
+2014.09.26,7:00,NY                                                                                                                           ,SEAFORD,2388,MAPLE ST            
+2014.09.30,5:20,NY                                                                                                                           ,MANHATTAN,330,W 56 ST             
+2014.09.29,17:30,NY                                                                                                                           ,MANHATTAN,9,E 68 ST             
+2014.09.29,12:45,NY                                                                                                                           ,BRONX,3410,DE REIMER AVE       
+2014.09.29,16:00,NY                                                                                                                           ,HARRISON,600,MAMARONICK AVE      
+2014.09.22,7:30,NJ                                                                                                                           ,RIVER EDGE,237,MONROE AVE          
+2014.09.17,15:45,NY                                                                                                                           ,MANHATTAN,22,W 15 ST             
+2014.09.18,6:45,NY                                                                                                                           ,Farmingdale,16,BERNARD ST          
+2014.09.18,15:30,NJ                                                                                                                           ,WOODCLIFF LAKE,100,TICE BLVD           
+2014.09.29,9:54,LGA DELTA MIDDLE ISLAND                                                                                                      ,,      ,                    
+2014.09.12,17:15,NY                                                                                                                           ,MANHATTAN,564,PARK AVE            
+2014.09.17,8:59,LGA UNITED Pick-up Island                                                                                                    ,,      ,                    
+2014.09.22,13:20,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.09.29,7:36,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.09.29,9:00,NY                                                                                                                           ,MANHATTAN,15,RIVINGTON ST        
+2014.09.29,5:45,NY                                                                                                                           ,PORT JEFFERSON,110,CLINTON AVE         
+2014.09.12,6:30,NY                                                                                                                           ,HICKSVILLE,30,BRUCE AVE           
+2014.09.22,15:00,NY                                                                                                                           ,MANHATTAN,1633,BROADWAY            
+2014.09.16,15:00,NY                                                                                                                           ,MANHATTAN,1601,3 AVE               
+2014.09.19,8:30,NY                                                                                                                           ,MANHASSET,5,EVERGREEN CIR       
+2014.09.24,12:45,NY                                                                                                                           ,MANHATTAN,9,W 31 ST             
+2014.09.24,15:30,NY                                                                                                                           ,WOODBURY,88,FROEHLICH FARM BLVD 
+2014.09.24,5:30,NY                                                                                                                           ,MANHATTAN,237,MADISON AVE         
+2014.09.26,9:02,NY                                                                                                                           ,MANHATTAN,301,PARK AVE            
+2014.08.31,8:30,NY                                                                                                                           ,LAWRENCE,60,BARRETT RD          
+2014.08.31,12:00,NY                                                                                                                           ,MANHATTAN,700,8 AVE               
+2014.09.25,9:30,NY                                                                                                                           ,Westbury,289,Post Ave            
+2014.09.30,11:30,NY                                                                                                                           ,MANHATTAN,18,E 48 ST             
+2014.09.17,11:45,NY                                                                                                                           ,MANHATTAN,150,W 56 ST             
+2014.09.25,12:30,NY                                                                                                                           ,MANHATTAN,201,E 87 ST             
+2014.09.18,12:00,NY                                                                                                                           ,MANHATTAN,45,E 45 ST             
+2014.09.24,6:25,JFK DELTA TERM 4  P/U AREA C                                                                                                 ,,      ,                    
+2014.09.18,16:12,NY                                                                                                                           ,MANHATTAN,193,E 3 ST              
+2014.09.30,10:30,NY                                                                                                                           ,MANHATTAN,31,W 11 ST             
+2014.09.30,6:29,JFK DELTA TERM 2  CURBSIDE                                                                                                   ,,      ,                    
+2014.09.24,9:15,NY                                                                                                                           ,STATEN ISLAND,64,RYAN PL             
+2014.09.22,11:00,NY                                                                                                                           ,MANHATTAN,2,GRAMERCY PK W       
+2014.09.26,14:00,NY                                                                                                                           ,MANHATTAN,130,E 18 ST             
+2014.09.30,15:15,NY                                                                                                                           ,MANHATTAN,250,E 54 ST             
+2014.07.03,20:34,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.07.03,21:00,NY                                                                                                                           ,MANHATTAN,157,DUANE ST            
+2014.07.09,18:17,EWR SOUTHWEST OUTSIDE DOOR 2                                                                                                 ,,      ,                    
+2014.07.08,20:50,NY                                                                                                                           ,MANHATTAN,5009,BROADWAY            
+2014.07.02,15:45,NY                                                                                                                           ,MANHATTAN,466,LEXINGTON AVE       
+2014.07.13,12:00,NJ                                                                                                                           ,BERNARDSVILLE,81,POST KUNHARDT RD    
+2014.07.02,19:24,LGA DELTA MIDDLE ISLAND                                                                                                      ,,      ,                    
+2014.07.08,17:00,NJ                                                                                                                           ,TETERBORO,719SH ,JET AVIATION        
+2014.07.10,17:34,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.07.10,16:00,NY                                                                                                                           ,MANHATTAN,633,3 Ave               
+2014.07.13,13:33,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.07.14,11:00,NJ                                                                                                                           ,MONROE TOWNSHIP,1,DAVID BRAINERD DR   
+2014.07.07,22:00,NY                                                                                                                           ,MANHATTAN,629,W 173 ST            
+2014.07.09,21:48,EWR US AIR OUTSIDE DOOR #8                                                                                                   ,,      ,                    
+2014.07.01,16:00,NJ                                                                                                                           ,FAR HILLS,400,LONG LN             
+2014.07.25,19:25,JFK VIRGIN AMERICA Pickup Area C                                                                                             ,,      ,                    
+2014.07.01,22:35,NY                                                                                                                           ,MANHATTAN,7,TIMES SQ            
+2014.07.08,20:17,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.01,21:19,NY                                                                                                                           ,MANHATTAN,32,W 10 ST             
+2014.07.09,15:45,NJ                                                                                                                           ,LONG BRANCH,344,BRIGHTON AVE        
+2014.07.07,17:57,JFK UNITED DOMESTIC Pickup Area A                                                                                            ,,      ,                    
+2014.07.06,21:45,NY                                                                                                                           ,MANHATTAN,40,W 57 ST             
+2014.07.07,15:45,NY                                                                                                                           ,MANHATTAN,60,W 23 ST             
+2014.07.07,13:00,NJ                                                                                                                           ,SHORT HILLS,33,WILDWOOD DR         
+2014.07.03,18:00,NJ                                                                                                                           ,Hillsborough,711,WHITENACK CT        
+2014.07.06,19:30,NJ                                                                                                                           ,WEST NEW YORK,7000,KENNEDY BLVD E      
+2014.07.06,17:00,NJ                                                                                                                           ,FAIRFIELD,PVT   ,AIR BOUND AVIATION  
+2014.07.07,20:16,LGA United Pick-up Island                                                                                                    ,LGA,      ,                    
+2014.07.14,18:58,NY                                                                                                                           ,MANHATTAN,51,W 51 ST             
+2014.07.02,20:30,NY                                                                                                                           ,MANHATTAN,1120,6 AVE               
+2014.07.02,21:18,NY                                                                                                                           ,MANHATTAN,1,PENN PLAZA          
+2014.07.01,20:00,NY                                                                                                                           ,MANHATTAN,402,7 AVE               
+2014.07.16,18:00,NJ                                                                                                                           ,WOODBRIDGE,122,FREEMAN ST          
+2014.07.14,15:11,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.07.14,17:15,NY                                                                                                                           ,LAWRENCE,405,BARRETT RD          
+2014.07.17,12:00,NJ                                                                                                                           ,NEWARK,1,W Raymond Place     
+2014.07.02,14:00,NJ                                                                                                                           ,NEWARK,36,CARSON RD           
+2014.07.10,13:30,NJ                                                                                                                           ,SUMMIT,570,SPRINGFIELD AVE     
+2014.07.10,22:00,LGA WESTJET PICK-UP ISLAND                                                                                                   ,,      ,                    
+2014.07.06,20:48,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.07.08,23:09,NY                                                                                                                           ,MANHATTAN,404,8 AVE               
+2014.07.14,14:00,NY                                                                                                                           ,MANHATTAN,235,W 48 ST             
+2014.07.13,15:45,NY                                                                                                                           ,MANHATTAN,71,W 12 ST             
+2014.07.08,14:45,NJ                                                                                                                           ,BASKING RIDGE,1,Verizon Way         
+2014.07.31,17:30,NJ                                                                                                                           ,NEWARK,      ,RAYMOND BLVD        
+2014.07.24,21:20,EWR DELTA DOMESTIC LOWER LEVEL AREA 4                                                                                        ,,      ,                    
+2014.07.24,19:00,NJ                                                                                                                           ,New Brunswick,55,Paterson St         
+2014.07.14,20:59,NY                                                                                                                           ,MANHATTAN,375,GREENWICH ST        
+2014.07.29,15:34,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.10,18:49,NY                                                                                                                           ,MANHATTAN,120,CEDAR ST            
+2014.07.17,17:45,NY                                                                                                                           ,MANHATTAN,454,W 54 ST             
+2014.07.27,13:30,NJ                                                                                                                           ,PRINCETON,22,MORVEN PL           
+2014.07.24,22:21,NY                                                                                                                           ,MANHATTAN,1221,6 AVE               
+2014.07.25,0:15,NY                                                                                                                           ,MANHATTAN,1301,6 AVE               
+2014.08.04,23:16,LGA AMERICAN Pick-up Island                                                                                                  ,LGA,      ,                    
+2014.08.10,11:00,NY                                                                                                                           ,MANHATTAN,234,W 42 ST             
+2014.07.10,23:30,NY                                                                                                                           ,MANHATTAN,235,E 45 ST             
+2014.07.25,12:00,NJ                                                                                                                           ,BASKING RIDGE,300,N MAPLE AVE         
+2014.07.30,21:53,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.29,22:23,NY                                                                                                                           ,MANHATTAN,331,W 4 ST              
+2014.08.13,21:26,EWR UNITED LOWER LEVEL PU AREA                                                                                               ,,      ,                    
+2014.08.05,15:12,EWR UNITED TERM A DOOR 2                                                                                                     ,,      ,                    
+2014.07.27,16:30,NY                                                                                                                           ,MANHATTAN,348,E 89 ST             
+2014.07.29,20:15,CT                                                                                                                           ,BRANFORD,49,ROSE ST             
+2014.07.30,18:30,NY                                                                                                                           ,MANHATTAN,1633,BROADWAY            
+2014.08.08,20:22,EWR UNITED PICK-UP AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.06,23:39,LGA UNITED Pick-up Island                                                                                                    ,,      ,                    
+2014.07.31,21:41,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.08.01,19:45,PA                                                                                                                           ,VILLANOVA,      ,E LANCASTER AVE     
+2014.07.31,22:48,NY                                                                                                                           ,MANHATTAN,402,7 AVE               
+2014.08.01,13:30,NJ                                                                                                                           ,UNION,650,LIBERTY AVE         
+2014.07.27,16:00,NY                                                                                                                           ,MANHATTAN,134,BANK ST             
+2014.08.04,20:15,NJ                                                                                                                           ,Princeton,111,Biscayne Court      
+2014.08.22,20:33,EWR United TERM C  AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.07,14:30,NY                                                                                                                           ,MANHATTAN,200,HUDSON ST           
+2014.08.07,12:00,NJ                                                                                                                           ,KENILWORTH,60,S 31ST ST           
+2014.08.10,9:15,NJ                                                                                                                           ,COLONIA,752,S MIDDLESEX AVE     
+2014.08.10,21:54,NJ                                                                                                                           ,SECAUCUS,350,LIGHTING WAY        
+2014.08.07,17:57,JFK AIR FRANCE Outside at the curb                                                                                           ,JFK,      ,                    
+2014.08.05,18:00,NY                                                                                                                           ,MANHATTAN,1410,BROADWAY            
+2014.08.01,14:08,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.25,13:30,NY                                                                                                                           ,MANHATTAN,402,7 AVE               
+2014.08.06,15:15,NY                                                                                                                           ,MANHATTAN,55,BROADWAY            
+2014.07.25,16:00,CT                                                                                                                           ,GREENWICH,537,STEAMBOAT RD        
+2014.07.27,17:16,NY                                                                                                                           ,CEDARHURST,623,CENTRAL AVE         
+2014.08.06,17:20,JFK JET BLUE DOMESTIC PICK UP AREA 3                                                                                         ,,      ,                    
+2014.08.12,20:36,EWR DELTA DOMESTIC LOWER LEVEL # 3                                                                                           ,,      ,                    
+2014.08.07,22:43,LGA SOUTHWEST AIRLINES MIDDLE ISLAND                                                                                         ,,      ,                    
+2014.08.07,23:35,NY                                                                                                                           ,MANHATTAN,50,W 50 ST             
+2014.08.07,23:42,NY                                                                                                                           ,MANHATTAN,200,W 51 ST             
+2014.08.06,22:00,NY                                                                                                                           ,BROOKLYN,180,MONTAGUE ST         
+2014.08.03,21:00,NJ                                                                                                                           ,UNION,1814,BURNET AVE          
+2014.08.08,14:30,NY                                                                                                                           ,MANHATTAN,212,E 42 ST             
+2014.08.08,12:00,NJ                                                                                                                           ,SUCCASUNNA,17,CONSTITUTION AVE    
+2014.08.08,15:30,NY                                                                                                                           ,MANHATTAN,520,E 72 ST             
+2014.08.07,12:51,NY                                                                                                                           ,MANHATTAN,215,E 24 ST             
+2014.08.08,18:00,NY                                                                                                                           ,MANHATTAN,136,W 75 ST             
+2014.08.05,19:00,NY                                                                                                                           ,MANHATTAN,841,BROADWAY            
+2014.08.13,17:22,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.08.10,18:45,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.08.10,23:30,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.07.30,16:32,EWR LUFTHANSA LEVEL 2 DOOR 8                                                                                                 ,,      ,                    
+2014.08.17,19:59,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.08.03,17:25,EWR ALASKA AIRLINE DOOR# 5                                                                                                   ,,      ,                    
+2014.08.14,19:30,NY                                                                                                                           ,MANHATTAN,365,7 AVE               
+2014.08.10,21:05,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.08.08,16:36,JFK AMERICAN DOMESTIC Pickup Area B                                                                                          ,,      ,                    
+2014.08.16,12:13,NJ                                                                                                                           ,EAST BRUNSWICK,26,HENRY ST            
+2014.08.18,19:15,NY                                                                                                                           ,MANHATTAN,85,8 AVE               
+2014.08.04,21:47,NY                                                                                                                           ,MANHATTAN,32,E 10 ST             
+2014.08.12,18:00,NJ                                                                                                                           ,ISELIN,100,MIDDLESEX TPKE      
+2014.08.21,15:39,EWR Air Canada Outside Door #2                                                                                               ,EWR,      ,                    
+2014.08.18,1:11,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.08.15,22:24,EWR UNITED PICK-UP AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.15,14:48,NY                                                                                                                           ,MANHATTAN,1166,6 AVE               
+2014.08.26,13:00,NY                                                                                                                           ,NEWARK,      ,RAYMOND BLVD        
+2014.08.22,12:30,NJ                                                                                                                           ,SOMERSET,200,FRANKLIN SQUARE DR  
+2014.08.20,21:10,NY                                                                                                                           ,MANHATTAN,225,10 AVE              
+2014.08.13,19:30,NY                                                                                                                           ,MANHATTAN,75,WALL ST             
+2014.08.20,19:18,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.07.29,13:30,NJ                                                                                                                           ,Piscataway Township,484,WHITTIER AVE        
+2014.08.05,20:31,NJ                                                                                                                           ,SUMMIT,556,MORRIS AVE          
+2014.08.05,21:31,NY                                                                                                                           ,MANHATTAN,29,W 17 ST             
+2014.08.06,13:00,NJ                                                                                                                           ,LYONS,151,KNOLLCROFT RD       
+2014.08.14,17:34,LGA DELTA Pick-up Island                                                                                                     ,,      ,                    
+2014.08.19,16:30,NY                                                                                                                           ,MANHATTAN,1,LIBERTY PLAZA       
+2014.08.22,0:08,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.08.15,11:45,NJ                                                                                                                           ,UNION,1721,MORRIS AVE          
+2014.08.13,19:00,NY                                                                                                                           ,MANHATTAN,60,THOMPSON ST         
+2014.08.14,13:30,NY                                                                                                                           ,MANHATTAN,229,CHRYSTIE ST         
+2014.08.15,18:45,NY                                                                                                                           ,MANHATTAN,240,E 90 ST             
+2014.08.15,15:30,NY                                                                                                                           ,MANHATTAN,280,PARK AVE            
+2014.08.15,17:02,LGA Air Canada Pick-up Island                                                                                                ,LGA,      ,                    
+2014.08.19,20:30,NY                                                                                                                           ,MANHATTAN,306,W 22 ST             
+2014.08.28,19:15,JFK QANTAS Pickup Area A                                                                                                     ,JFK,      ,                    
+2014.08.21,17:00,NY                                                                                                                           ,MANHATTAN,1372,BROADWAY            
+2014.09.08,15:00,NJ                                                                                                                           ,BRIDGEWATER,700,COMMONS WAY         
+2014.08.24,18:00,NJ                                                                                                                           ,METUCHEN,521,WAKEFIELD DR        
+2014.08.28,16:00,NY                                                                                                                           ,MANHATTAN,212,E 42 ST             
+2014.08.21,19:08,NY                                                                                                                           ,MANHATTAN,1,PENN PLAZA          
+2014.08.21,21:30,NY                                                                                                                           ,MANHATTAN,518,W 27 ST             
+2014.08.18,16:00,NJ                                                                                                                           ,Pennington,1200,Merrill Lynch Drive 
+2014.08.16,16:00,NY                                                                                                                           ,MANHATTAN,83,WARREN ST           
+2014.09.12,15:30,NY                                                                                                                           ,MANHATTAN,1535,BROADWAY            
+2014.08.26,17:30,NY                                                                                                                           ,MANHATTAN,623,5 AVE               
+2014.08.20,16:00,NJ                                                                                                                           ,BASKING RIDGE,1,VERIZON WAY         
+2014.09.13,13:28,EWR UNITED PICK-UP AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.14,12:00,NJ                                                                                                                           ,BERKELEY HEIGHTS,100,CONNELL DR          
+2014.09.07,17:00,NJ                                                                                                                           ,WARREN,50,STIRLING RD         
+2014.09.06,14:17,NY                                                                                                                           ,MANHATTAN,95,CHRISTOPHER ST      
+2014.08.22,20:00,NJ                                                                                                                           ,LIVINGSTON,68,OLD SHORT HILLS RD  
+2014.08.26,15:20,LGA US AIR PICK-UP ISLAND                                                                                                    ,LGA,      ,                    
+2014.09.08,16:46,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.09.10,15:30,NJ                                                                                                                           ,MILLBURN,44,ESSEX ST            
+2014.08.21,15:00,NJ                                                                                                                           ,CRANFORD,2,WOODSHOLE RD        
+2014.09.09,16:30,NJ                                                                                                                           ,BEDMINSTER,811,RATTLESNAKE BRIDGE R
+2014.09.09,18:00,NY                                                                                                                           ,MANHATTAN,166,E 63 ST             
+2014.09.11,21:14,EWR UNITED LOWER LEVEL PU AREA                                                                                               ,,      ,                    
+2014.09.07,20:25,EWR Jetblue Outside Door #2                                                                                                  ,EWR,      ,                    
+2014.08.28,14:00,NJ                                                                                                                           ,GARWOOD,608,SOUTH AVE           
+2014.09.10,18:15,NY                                                                                                                           ,MANHATTAN,155,E 50 ST             
+2014.09.16,17:30,EWR UNITED TERM C  AREA 3                                                                                                    ,EWR,      ,                    
+2014.08.22,13:23,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.09.11,15:15,NY                                                                                                                           ,MANHATTAN,30,W 21 ST             
+2014.09.12,11:45,NY                                                                                                                           ,MANHATTAN,260,PARK AVE S          
+2014.09.10,17:45,NY                                                                                                                           ,MANHATTAN,270,PARK AVE            
+2014.09.11,12:30,NJ                                                                                                                           ,SOMERSET,2101,COTTONTAIL LN       
+2014.09.12,10:30,NJ                                                                                                                           ,MORRISTOWN,100,MADISON AVE         
+2014.09.14,16:00,NJ                                                                                                                           ,FAR HILLS,400,LONG LN             
+2014.09.12,18:30,NY                                                                                                                           ,MANHATTAN,245,W 55 ST             
+2014.09.13,11:15,NJ                                                                                                                           ,Lawrenceville,283,Fieldboro Drive     
+2014.08.19,15:30,NJ                                                                                                                           ,SHORT HILLS,1200,MORRIS TPKE         
+2014.09.11,19:00,NY                                                                                                                           ,MANHATTAN,851,6 AVE               
+2014.09.15,17:15,LGA UNITED Pick-up Island                                                                                                    ,,      ,                    
+2014.09.15,16:15,NY                                                                                                                           ,Manhattan                               ,420,W 14 ST             
+2014.09.15,21:00,EWR UNITED PICK-UP AREA 3                                                                                                    ,,      ,                    
+2014.09.11,14:09,EWR BRITISH AIRWAYS AREA 4/LOWER LEVEL                                                                                       ,EWR,      ,                    
+2014.09.05,16:45,NJ                                                                                                                           ,Union City,3900,PALISADE AVE        
+2014.09.15,22:47,NY                                                                                                                           ,MANHATTAN,20,W 20 ST             
+2014.09.10,19:30,NY                                                                                                                           ,MANHATTAN,137,W 37 ST             
+2014.09.11,17:07,JFK US AIR Pickup Area C                                                                                                     ,,      ,                    
+2014.09.12,16:52,JFK ANA (NIPPON AIR) Pickup Area A                                                                                           ,,      ,                    
+2014.09.30,17:30,NJ                                                                                                                           ,NEW BRUNSWICK,410,George Street       
+2014.09.25,21:58,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.09.26,16:00,EWR Southwest OUTSIDE DOOR 2                                                                                                 ,EWR,      ,                    
+2014.09.29,13:00,NJ                                                                                                                           ,NEWARK,100,MULBERRY ST         
+2014.09.24,13:00,NJ                                                                                                                           ,NORTH BRUNSWICK,923,AZALEA DR           
+2014.09.17,22:00,NY                                                                                                                           ,MANHATTAN,4,BLEECKER ST         
+2014.09.18,17:30,NJ                                                                                                                           ,NEW BRUNSWICK,5,CHAPEL DR           
+2014.09.24,15:30,NY                                                                                                                           ,MANHATTAN,354,E 91 ST             
+2014.09.19,17:00,NY                                                                                                                           ,MANHATTAN,88,PINE ST             
+2014.09.26,17:15,NY                                                                                                                           ,MANHATTAN,53,PARK PL             
+2014.09.30,21:49,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.09.19,15:30,NJ                                                                                                                           ,Woodbridge,10,WOODBRIDGE CENTER DR
+2014.09.19,19:09,LGA DELTA SHUTTLE OUTSIDE                                                                                                    ,,      ,                    
+2014.09.17,19:29,JFK AMERICAN DOMESTIC Pickup Area C                                                                                          ,,      ,                    
+2014.09.15,15:00,NJ                                                                                                                           ,CRANFORD,29,ALDEN ST            
+2014.09.24,14:25,EWR UNITED TERM B LWR LVL AREA5                                                                                              ,,      ,                    
+2014.09.16,21:18,EWR SOUTHWEST OUTSIDE DOOR 2                                                                                                 ,,      ,                    
+2014.09.17,15:30,NJ                                                                                                                           ,Piscataway,885,Centennial Avenue   
+2014.09.24,20:00,CT                                                                                                                           ,STAMFORD,700,E MAIN ST           
+2014.09.06,12:30,NJ                                                                                                                           ,PRINCETON,253,NASSAU ST           
+2014.09.26,19:59,EWR United TERM C  AREA 3                                                                                                    ,EWR,      ,                    
+2014.09.26,21:40,EWR UNITED TERM C  AREA 3                                                                                                    ,,      ,                    
+2014.09.29,18:15,NY                                                                                                                           ,MANHATTAN,485,5 AVE               
+2014.07.28,9:30,NY                                                                                                                           ,MANHATTAN           ,445,W 19 ST             
+2014.07.05,7:00,NY                                                                                                                           ,MANHATTAN,207,W 10 ST             
+2014.07.07,8:45,NY                                                                                                                           ,MANHATTAN,80,CENTRAL PARK WEST   
+2014.07.06,10:00,NY                                                                                                                           ,QUEENS,5910,ST FELIX AVE        
+2014.07.01,4:00,NY                                                                                                                           ,MANHATTAN,90,WEST ST             
+2014.07.03,5:15,NY                                                                                                                           ,MANHATTAN,130,W 12 ST             
+2014.07.02,5:00,NY                                                                                                                           ,MANHATTAN,255,W 23 ST             
+2014.07.10,4:15,NY                                                                                                                           ,MANHATTAN,550,W 54 ST             
+2014.07.01,8:00,NY                                                                                                                           ,MANHATTAN,31,E 12 ST             
+2014.07.09,7:30,NY                                                                                                                           ,MANHATTAN,99,BANK ST             
+2014.07.04,8:00,LGA US AIR PICK-UP ISLAND                                                                                                    ,,      ,                    
+2014.07.01,6:00,NY                                                                                                                           ,MANHATTAN,15,BROAD ST            
+2014.07.03,4:00,NY                                                                                                                           ,MANHATTAN,1335,6 AVE               
+2014.08.28,3:45,NY                                                                                                                           ,MANHATTAN,117,E 89 ST             
+2014.07.03,7:00,NY                                                                                                                           ,MANHATTAN,25,UNION SQ W          
+2014.07.03,11:45,NY                                                                                                                           ,MANHATTAN,1,PARK AVE            
+2014.07.02,3:30,NY                                                                                                                           ,MANHATTAN,166,E 34 ST             
+2014.07.05,4:15,NY                                                                                                                           ,MANHATTAN,16,E 8 ST              
+2014.07.10,12:30,NY                                                                                                                           ,QUEENS,10825,HORACE HARDING EXP  
+2014.07.06,5:34,NY                                                                                                                           ,QUEENS,4134,CRESCENT ST         
+2014.07.09,5:15,NY                                                                                                                           ,MANHATTAN,277,WEST END AVE        
+2014.07.11,7:30,NY                                                                                                                           ,MANHATTAN,450,W 24 ST             
+2014.07.07,6:15,NY                                                                                                                           ,MANHATTAN,8,SPRUCE ST           
+2014.07.11,5:30,NY                                                                                                                           ,MANHATTAN,250,W 19 ST             
+2014.07.08,11:19,NY                                                                                                                           ,QUEENS,3229,159 ST              
+2014.07.02,7:00,NY                                                                                                                           ,MANHATTAN,245,E 25 ST             
+2014.07.07,4:00,NY                                                                                                                           ,MANHATTAN,622,W 114 ST            
+2014.07.07,5:00,NY                                                                                                                           ,MANHATTAN,119,ST MARKS PL         
+2014.07.04,7:15,NY                                                                                                                           ,MANHATTAN,60,E 9 ST              
+2014.07.07,8:30,NY                                                                                                                           ,MANHATTAN,35,E 32 ST             
+2014.07.10,9:45,NY                                                                                                                           ,MANHATTAN,377,BLEECKER ST         
+2014.07.04,5:30,NY                                                                                                                           ,MANHATTAN,33,CHARLTON ST         
+2014.07.08,9:15,NY                                                                                                                           ,QUEENS,14402,135 AVE             
+2014.07.13,4:15,NY                                                                                                                           ,MANHATTAN,49,HOWARD ST           
+2014.07.17,6:45,NY                                                                                                                           ,MANHATTAN,124,E 28 ST             
+2014.07.12,6:30,NY                                                                                                                           ,MANHATTAN,1,Irving Pl           
+2014.07.11,12:00,NY                                                                                                                           ,QUEENS,27111,76 AVE              
+2014.07.13,9:30,NY                                                                                                                           ,QUEENS,20019,28 AVE              
+2014.07.13,3:45,NY                                                                                                                           ,MANHATTAN,464,W 44 ST             
+2014.07.14,4:00,NY                                                                                                                           ,MANHATTAN,226,W 50 ST             
+2014.07.12,10:00,NY                                                                                                                           ,QUEENS,4142,50 ST               
+2014.07.11,4:15,NY                                                                                                                           ,MANHATTAN,103,READE ST            
+2014.07.16,4:00,NY                                                                                                                           ,MANHATTAN,181,VARICK ST           
+2014.07.22,4:30,NY                                                                                                                           ,MANHATTAN,80,PARK AVE            
+2014.07.12,4:00,NY                                                                                                                           ,MANHATTAN,819,FDR DRIVE           
+2014.07.18,6:00,NY                                                                                                                           ,MANHATTAN,370,E 76 ST             
+2014.07.06,4:00,NY                                                                                                                           ,MANHATTAN,60,1 AVE               
+2014.07.15,4:15,NY                                                                                                                           ,MANHATTAN,365,W 52 ST             
+2014.07.10,15:00,NY                                                                                                                           ,MANHATTAN,200,5 AVE               
+2014.07.16,7:15,NY                                                                                                                           ,MANHATTAN,77,BLEECKER ST         
+2014.07.20,7:30,NY                                                                                                                           ,MANHATTAN,1,WASHINGTON SQ VILLAG
+2014.07.15,6:00,NY                                                                                                                           ,MANHATTAN,21,E 22 ST             
+2014.07.23,11:00,NY                                                                                                                           ,SEA CLIFF,216,LITTLEWORTH LN      
+2014.07.04,4:15,NY                                                                                                                           ,MANHATTAN,601,W 57 ST             
+2014.07.19,7:00,NJ                                                                                                                           ,JERSEY CITY,153,WEGMAN PKWY         
+2014.07.19,7:55,LGA SPIRIT Pick-up Island                                                                                                    ,,      ,                    
+2014.07.05,9:17,NY                                                                                                                           ,MANHATTAN,101,W 12 ST             
+2014.07.16,5:45,NY                                                                                                                           ,MANHATTAN,134,E 22 ST             
+2014.07.03,9:00,NY                                                                                                                           ,MANHATTAN,55,W 25 ST             
+2014.07.22,11:45,NY                                                                                                                           ,QUEENS,4310,CRESCENT ST         
+2014.07.17,10:00,NY                                                                                                                           ,MANHATTAN,420,PARK AVE S          
+2014.07.17,9:00,NY                                                                                                                           ,MANHATTAN,312,W 90 ST             
+2014.07.23,3:30,NY                                                                                                                           ,MANHATTAN,226,W 50 ST             
+2014.07.15,8:30,NY                                                                                                                           ,MANHATTAN,40,E 9 ST              
+2014.07.18,4:15,NY                                                                                                                           ,MANHATTAN,95,HORATIO ST          
+2014.07.20,4:45,NY                                                                                                                           ,MANHATTAN,424,WEST END AVE        
+2014.07.14,5:00,NY                                                                                                                           ,MANHATTAN,142,E 16 ST             
+2014.07.14,7:00,NY                                                                                                                           ,QUEENS,2550,CRESCENT ST         
+2014.07.21,7:00,NY                                                                                                                           ,MANHATTAN,102,E 31 ST             
+2014.07.19,4:15,NY                                                                                                                           ,MANHATTAN,88,MADISON AVE         
+2014.07.13,6:15,NY                                                                                                                           ,MANHATTAN,164,ORCHARD ST          
+2014.07.14,5:30,NY                                                                                                                           ,MANHATTAN,40,WATERSIDE PLAZA     
+2014.07.21,10:45,NY                                                                                                                           ,QUEENS,3620,216 ST              
+2014.07.15,9:30,NY                                                                                                                           ,MANHATTAN,201,E 12 ST             
+2014.07.25,5:30,NY                                                                                                                           ,MANHATTAN,95,HORATIO ST          
+2014.07.22,5:30,NY                                                                                                                           ,MANHATTAN,44,E 12 ST             
+2014.07.28,6:00,NY                                                                                                                           ,MANHATTAN,210,W 19 ST             
+2014.07.24,4:15,NY                                                                                                                           ,MANHATTAN,100,W 26 ST             
+2014.07.22,12:37,NY                                                                                                                           ,QUEENS,16104,JEWEL AVE           
+2014.07.21,5:30,NY                                                                                                                           ,MANHATTAN,235,E 22 ST             
+2014.07.22,8:00,NY                                                                                                                           ,MANHATTAN,20,WATERSIDE PLAZA     
+2014.07.25,4:00,NY                                                                                                                           ,MANHATTAN,298,MULBERRY ST         
+2014.07.23,6:45,NY                                                                                                                           ,MANHATTAN,145,E 16 ST             
+2014.07.23,5:00,NY                                                                                                                           ,MANHATTAN,16,W 16 ST             
+2014.07.30,6:53,NY                                                                                                                           ,MANHATTAN,409,E 14 ST             
+2014.07.18,10:45,NY                                                                                                                           ,QUEENS,6730,DARTMOUTH ST        
+2014.07.31,5:15,NY                                                                                                                           ,MANHATTAN,52,W 13 ST             
+2014.07.08,6:00,NY                                                                                                                           ,MANHATTAN,31,E 31 ST             
+2014.07.17,5:00,NY                                                                                                                           ,MANHATTAN,64,E 86 ST             
+2014.08.07,4:30,NY                                                                                                                           ,MANHATTAN,666,WEST END AVE        
+2014.07.21,4:00,NY                                                                                                                           ,MANHATTAN,176,E 2 ST              
+2014.07.25,13:30,NY                                                                                                                           ,QUEENS,20016,53 AVE              
+2014.07.18,7:15,NY                                                                                                                           ,MANHATTAN,4,PARK AVE            
+2014.07.29,5:30,NY                                                                                                                           ,MANHATTAN,415,W 23 ST             
+2014.07.29,7:15,NY                                                                                                                           ,MANHATTAN,31,W 17 ST             
+2014.07.22,9:00,NY                                                                                                                           ,MANHATTAN,113,E 13 ST             
+2014.07.30,4:00,NY                                                                                                                           ,MANHATTAN,116,John St             
+2014.07.29,9:15,NY                                                                                                                           ,MANHATTAN,222,E 34 ST             
+2014.08.09,4:15,NY                                                                                                                           ,MANHATTAN,50,W 36 ST             
+2014.08.04,4:00,NY                                                                                                                           ,MANHATTAN,243,E 27 St             
+2014.07.27,3:30,NY                                                                                                                           ,MANHATTAN,6,MACDOUGAL ALLEY     
+2014.07.27,6:30,NY                                                                                                                           ,MANHATTAN,175,W 12 ST             
+2014.09.19,9:30,NY                                                                                                                           ,QUEENS,14410,135 Ave             
+2014.07.29,4:00,NY                                                                                                                           ,MANHATTAN,485,1 AVE               
+2014.07.29,6:45,NY                                                                                                                           ,MANHATTAN,68,IRVING PL           
