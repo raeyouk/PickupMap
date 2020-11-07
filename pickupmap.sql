@@ -82,7 +82,7 @@ delimiter ;
 SET SQL_SAFE_UPDATES = 0; 
 
 -- insert uber data into database
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap-master/sampledata/uber-raw-data-jul14.csv' 
+LOAD DATA INFILE 'C:/wamp64/www/PickupMap/sampledata/uber-raw-data-jul14.csv' 
 INTO TABLE dataFromUberJul
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -97,7 +97,7 @@ where id > 1000 or dateAndTime is null; -- limit and remove invalid points
 SELECT * FROM dataFromUberJul;
 
 -- insert lyft data into database
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap-master/sampledata/Lyft_B02510.csv'
+LOAD DATA INFILE 'C:/wamp64/www/PickupMap/sampledata/Lyft_B02510.csv'
 INTO TABLE dataFromLyft
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -112,7 +112,7 @@ where id > 1000 or dateAndTime is null;
 SELECT * FROM dataFromLyft;
 
 -- insert Diplo
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap-master/sampledata/Diplo_B01196.csv' 
+LOAD DATA INFILE 'C:/wamp64/www/PickupMap/sampledata/Diplo_B01196.csv' 
 INTO TABLE dataFromDiplo
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
@@ -125,7 +125,7 @@ where id > 50 or dateAndTime is null;
 select * from dataFromDiplo;
 
 -- insert Carmel
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap-master/sampledata/Carmel_B00256.csv' 
+LOAD DATA INFILE 'C:/wamp64/www/PickupMap/sampledata/Carmel_B00256.csv' 
 INTO TABLE dataFromCarmel
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
@@ -138,7 +138,7 @@ where id > 50 or dateAndTime is null;
 select * from dataFromCarmel;
 
 -- insert Dial7
-LOAD DATA INFILE 'C:/wamp64/www/PickupMap-master/sampledata/Dial7_B00887.csv' 
+LOAD DATA INFILE 'C:/wamp64/www/PickupMap/sampledata/Dial7_B00887.csv' 
 INTO TABLE dataFromDial7
 FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
