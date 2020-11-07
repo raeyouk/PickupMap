@@ -11,14 +11,14 @@ Windows:
 4. Open pickupmap.sql
 5. Edit the LOAD DATA statements to point to the files in the sampledata folder
 6. Run the file
-7. Open a browser and go to localhost/pickupmap
+7. Open a browser and go to localhost/PickupMap-master
 8. Mess around
 
 Mac:
 1. Install MAMP and run the server
 2. Clone this repo into the server root directory (Applications/MAMP/htdocs by default I think?)
 Steps 3. through 6. are the same as above
-7. Open a browser and go to localhost:8888/pickupmap
+7. Open a browser and go to localhost:8888/PickupMap-master
 8. Do stuff
 
 Thanks to Samantha Axline and Sreeja Kondeti for helping me with the backend.
